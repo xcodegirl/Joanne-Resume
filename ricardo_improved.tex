@@ -1,0 +1,212 @@
+\documentclass[11pt]{article}
+\usepackage[letterpaper,margin=0.75in]{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage[hidelinks]{hyperref}
+\usepackage{xcolor}
+\usepackage{ragged2e}
+\usepackage{fontawesome5}
+\usepackage[default]{raleway}
+\usepackage{multicol}
+
+% Colors
+\definecolor{accent}{RGB}{46,16,14}
+\definecolor{secondary}{RGB}{30,30,30}
+
+% Font settings
+\renewcommand{\familydefault}{\sfdefault}
+\newcommand{\mytitle}[1]{\color{accent}\normalfont\large\bfseries{#1}}
+
+% Section formatting
+\titleformat{\section}{\mytitle}{}{0em}{}[{\titlerule[0.8pt]}]
+\titlespacing{\section}{0pt}{12pt}{8pt}
+
+% Itemize styling
+\setlist[itemize]{leftmargin=*,nosep,after=\vspace{4pt}}
+\setlist[itemize]{label=\color{accent}\scriptsize\raisebox{0.4ex}{\textbullet}}
+
+% Custom commands
+\newcommand{\role}[3]{
+  \textbf{\color{accent}#1} \hfill \textit{\color{secondary}#2} \\
+  \textit{\small#3} \vspace{2pt}
+}
+
+\newcommand{\contact}[2]{
+  \faIcon{at} \href{mailto:#1}{#1} \hfill
+  \faIcon{linkedin} \href{https://linkedin.com/in/#2}{linkedin.com/in/#2}
+}
+
+\newcommand{\tech}[1]{\textcolor{secondary}{\textbf{#1}}}
+\newcommand{\experience}[4]{
+  \vspace{4pt}
+  \begin{tabular*}{\textwidth}{@{}l@{\extracolsep{\fill}}r@{}}
+    \textbf{#1} & \textit{#2} \\
+    \textit{\small#3} & \textit{\small#4}
+  \end{tabular*}
+  \vspace{-4pt}
+}
+
+\begin{document}
+
+\begin{center}
+    {\Huge \textbf{RICARDO HOAR}} \\[4pt]
+    {\Large \tech{Engineering Leader | Developer Advocate | Technical Author}} \\[6pt]
+\contact{ricardo.hoar@gmail.com}{ricardo-hoar}
+\end{center}
+
+% ===== Professional Summary =====
+\section*{Summary}
+Engineering leader and technical communicator with 20+ years building high-performance teams, delivering innovative products, and bridging technical and business stakeholders. Proven track record in game development automation, mobile platforms, curriculum design, and developer advocacy. Co-author of industry-standard web development textbook adopted by 200+ institutions globally.
+
+% ===== Core Competencies =====
+\section*{Core Competencies}
+\begin{multicols}{2}
+\begin{itemize}
+    \item Engineering Leadership \& Team Building
+    \item Developer Relations \& Advocacy
+    \item Test Automation \& CI/CD
+    \item Game Development (Unreal/Unity)
+    \item Mobile Development (iOS/Android)
+    \item Technical Writing \& Documentation
+    \item Curriculum Development
+    \item Agile Methodologies
+\end{itemize}
+\end{multicols}
+
+% ===== Professional Experience =====
+\section*{Professional Experience}
+
+\experience{Development Manager}{Jun 2022 -- Present}{Confidential Tech Company}{Remote}
+\begin{itemize}
+    \item Architected cross-platform test automation framework for \tech{Unreal Engine 4.27-5.6} (C++/C\#), enabling QA teams to automate game testing at scale across multiple studio titles
+    \item Pioneered \tech{MCP (Model Context Protocol) AI server} integration, exposing company APIs and Unreal/Unity games to LLMs like Claude for AI-assisted test development
+    \item Led distributed team of 5 engineers using agile methodologies, delivering quarterly releases with 95\%+ on-time delivery rate
+    \item Created comprehensive video tutorials, quickstart guides, and sample applications, reducing developer onboarding time by 60\%
+    \item Served as internal developer advocate, partnering with Product and Engineering to prioritize features based on community feedback and telemetry data
+\end{itemize}
+
+\experience{President, CEO}{Jun 2005 -- Present}{Silicon Hanna Inc}{Remote}
+\begin{itemize}
+    \item Co-founded boutique software development studio with focus on iOS app development, managing all aspects of product strategy, development, and operations
+    \item Shipped 12+ mobile titles across Android/iOS platforms using \tech{Unreal Engine} with native SDK integration (Swift/Kotlin), generating 500k+ downloads
+    \item Engineered real-time multiplayer systems and puzzle games with Apple API integrations (GameCenter, ARKit)
+    \item Evolved product focus from casual games to educational AR applications, expanding into EdTech market
+\end{itemize}
+
+\experience{Associate Dean}{Jan 2017 -- Feb 2018}{Sheridan College, School of Applied Computing}{Ontario}
+\begin{itemize}
+    \item Directed academic operations for 11 STEM programs serving 2,000+ students across diplomas, degrees, and post-graduate certificates
+    \item Led \$1.2M industry partnership initiatives for applied VR/AR research, collaborating with major tech companies
+    \item Managed 25+ full-time faculty and 100+ part-time instructors, delivering 200+ technical courses annually
+    \item Orchestrated institutional visit by Apple CEO Tim Cook, coordinating technical demonstrations and community engagement
+    \item Championed diversity initiatives including Women in Computing program, increasing female enrollment by 30\%
+    \item Represented institution at technical conferences and industry events, building strategic partnerships with Apple, Microsoft, and Unity
+\end{itemize}
+
+\experience{Lead Technical Author}{Mar 2014 -- Sep 2021}{Pearson Education}{Global}
+\begin{itemize}
+    \item Co-authored 3 editions of \tech{``Fundamentals of Web Development''}, industry-standard textbook adopted by 200+ institutions worldwide
+    \item Covered comprehensive full-stack curriculum: HTML5, CSS3, JavaScript (ES6+), React, Node.js, SQL, PHP, TypeScript, GraphQL, CI/CD, and microservices
+    \item Content translated into multiple languages with international distribution across North America, Europe, and Asia
+    \item Presented at educational technology conferences on modern web development pedagogy
+\end{itemize}
+
+\experience{Associate Professor \& Department Chair}{Aug 2007 -- Dec 2016}{Mount Royal University}{Calgary}
+\begin{itemize}
+    \item Led Computer Science \& Information Systems department through university transition and subsequent merger with Mathematics department
+    \item Championed inaugural department chair role, building collaborative culture and driving 50\% enrollment growth through industry-aligned curriculum
+    \item Developed municipal transit tracking web application (PHP/MySQL) handling 50k+ daily queries, serving 100k+ transit riders
+    \item Advanced computer literacy initiatives across non-CS disciplines, expanding technology education reach
+    \item Taught diverse course portfolio including software engineering, web development, mobile app development, and introductory programming
+    \item Elected Speaker of General Faculties Council (2014-2015), presiding over university's governing body
+\end{itemize}
+
+\newpage
+
+\section*{Earlier Career Highlights}
+
+\experience{Software Developer}{Mar 2007 -- Jul 2007}{Clickspace Interactive}{Calgary, Alberta}
+\begin{itemize}
+    \item Developed web applications for e-commerce and insurance claim management using \tech{Ruby on Rails} and \tech{JSP}
+    \item Contributed to agile development environment with cross-functional designer and developer collaboration
+\end{itemize}
+
+\experience{Software Developer}{Nov 2006 -- Mar 2007}{Premier GPS}{Calgary, Alberta}
+\begin{itemize}
+    \item Established software development infrastructure from scratch for GPS-to-web application integration
+    \item Designed redundant server systems for emergency signal relay, deployed with HAWKS air ambulance
+\end{itemize}
+
+\experience{Web Architect}{Jul 2006 -- Oct 2006}{Alberta Securities Commission}{Calgary, Alberta}
+\begin{itemize}
+    \item Eliminated website downtime (from several minutes/hour to zero) through CMS optimization
+    \item Improved publication workflows including staging-to-production environments and web services integration
+\end{itemize}
+
+\experience{Instructor}{Sep 2006 -- Nov 2006}{University of Calgary, Faculty of Continuing Education}{Calgary, Alberta}
+\begin{itemize}
+    \item Taught introductory web design to adult learners with consistently positive student evaluations
+\end{itemize}
+
+\experience{Faculty Web Technical Administrator}{Nov 2005 -- Jul 2006}{University of Calgary, Faculty of Social Sciences}{Calgary, Alberta}
+\begin{itemize}
+    \item Rescued compromised infrastructure, securing file systems and deploying enterprise CMS within one week
+    \item Administered redundant web/mail server cluster supporting multiple departmental and research websites
+    \item University-wide CMS selection contribution remains in production today
+\end{itemize}
+
+\experience{Team Leader, Software Engineer}{Apr 2005 -- Nov 2005}{PlayStarMusic Corp}{Calgary, Alberta}
+\begin{itemize}
+    \item Built technical infrastructure and team from ground up for venture-backed startup
+    \item Wore multiple hats: system administrator, programmer, designer, team leader, business analyst
+\end{itemize}
+
+\experience{Software Engineer}{Dec 2004 -- Mar 2005}{Codefast.com}{Calgary, Alberta}
+\begin{itemize}
+    \item Developed universal compilers in C++, adhering to strict coding standards and requirements
+\end{itemize}
+
+% ===== Education =====
+\section*{Education}
+\begin{itemize}
+    \item \tech{M.Sc. Computer Science} -- University of Calgary \hfill 2004 \\
+    \textit{Thesis: Multi-Agent Modelling and Analysis of Pedestrian and Vehicular Traffic}
+    \item \tech{B.Sc. Computer Science} (Minor: Pure Mathematics) -- University of Calgary \hfill 2002
+\end{itemize}
+
+% ===== Selected Publications =====
+\section*{Selected Publications}
+\begin{itemize}[nosep,leftmargin=*]
+    \item Connolly, R., \textbf{Hoar, R.} ``Fundamentals of Web Development'' (3rd Ed.), Pearson, 2023
+    \item \textbf{Hoar, R.}, Connolly, R. ``The Garden of Earthly Delights: Constructing and Revising a Web Development Textbook'', WWW Conference, 2016
+    \item \textbf{Hoar, R.} ``A Personalized Web Based Public Transit Information System'', IEEE ITSC, 2010
+    \item \textbf{Hoar, R.} ``Generally Educated In The 21st Century: Computer Literacy In Undergraduate Curriculum'', WCCCE, 2014
+\end{itemize}
+
+% ===== Honors & Awards =====
+\section*{Honors \& Awards}
+\begin{itemize}[nosep,leftmargin=*]
+    \item Nominee, Distinguished Administrator/Manager Award, Mount Royal University \hfill 2015-16
+    \item Petro-Canada Young Innovator Award \hfill 2008
+    \item Best Student Paper Award, Australian Conference on Artificial Life \hfill 2003
+    \item Graduate Student Scholarship, Alberta Learning \hfill 2004
+\end{itemize}
+
+% ===== Leadership & Service =====
+\section*{Leadership \& Service}
+\begin{itemize}[nosep,leftmargin=*]
+    \item Chair, Hanna Public Library Board \hfill 2022--2024
+    \item Speaker, General Faculties Council, Mount Royal University \hfill 2014--2015
+    \item Secretary, Canadian Association for Computer Science (CACS/AIC) \hfill 2011--2016
+    \item Member, Calgary Transit Customer Advisory Group \hfill 2010--2015
+    \item Volunteer, ExploreIT \& ASTEP Summer Camps (promoting STEM to youth) \hfill 2008--2016
+\end{itemize}
+
+% ===== Technical Skills =====
+\section*{Technical Skills}
+\textbf{Languages:} C++, C\#, JavaScript/TypeScript, Python, Swift, Kotlin, PHP, SQL \\
+\textbf{Frameworks/Platforms:} Unreal Engine, Unity, React, Node.js, Ruby on Rails \\
+\textbf{Tools \& Systems:} Git, CI/CD, Docker, AWS, MCP, GraphQL, RESTful APIs \\
+\textbf{Specialties:} Test Automation, Game Development, Mobile Development, Developer Tooling, Technical Writing
+
+\end{document}

@@ -4,6 +4,8 @@
 *.out
 *.DS_Store
 *.tex
+!ricardo_improved.tex
+!ricardo_mercury.tex
 *.txt
 *.html
 *.md

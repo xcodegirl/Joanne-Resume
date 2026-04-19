@@ -1,0 +1,158 @@
+\documentclass[11pt]{article}
+\usepackage[letterpaper,margin=0.75in]{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage[hidelinks]{hyperref}
+\usepackage{xcolor}
+\usepackage{ragged2e}
+\usepackage{fontawesome5}
+\usepackage[default]{raleway}
+\usepackage{multicol}
+
+% Colors
+\definecolor{accent}{RGB}{46,16,14}
+\definecolor{secondary}{RGB}{30,30,30}
+
+% Font settings
+\renewcommand{\familydefault}{\sfdefault}
+\newcommand{\mytitle}[1]{\color{accent}\normalfont\large\bfseries{#1}}
+
+% Section formatting
+\titleformat{\section}{\mytitle}{}{0em}{}[{\titlerule[0.8pt]}]
+\titlespacing{\section}{0pt}{12pt}{8pt}
+
+% Itemize styling
+\setlist[itemize]{leftmargin=*,nosep,after=\vspace{4pt}}
+\setlist[itemize]{label=\color{accent}\scriptsize\raisebox{0.4ex}{\textbullet}}
+
+% Custom commands
+\newcommand{\contact}[2]{
+  \faIcon{at} \href{mailto:#1}{#1} \hfill
+  \faIcon{linkedin} \href{https://linkedin.com/in/#2}{linkedin.com/in/#2}
+}
+
+\newcommand{\tech}[1]{\textcolor{secondary}{\textbf{#1}}}
+\newcommand{\experience}[4]{
+  \vspace{4pt}
+  \begin{tabular*}{\textwidth}{@{}l@{\extracolsep{\fill}}r@{}}
+    \textbf{#1} & \textit{#2} \\
+    \textit{\small#3} & \textit{\small#4}
+  \end{tabular*}
+  \vspace{-4pt}
+}
+
+\begin{document}
+
+\begin{center}
+    {\Huge \textbf{MATTHEW HOAR}} \\[4pt]
+    {\Large \tech{Software Engineer + Educator | Engineering Training \& Mentorship}} \\[6pt]
+\contact{ricardo.hoar@gmail.com}{ricardo-hoar}
+\end{center}
+
+% ===== Professional Summary =====
+\section*{Summary}
+Software engineer and educator with 10+ years teaching software engineering to hundreds of students, combined with deep expertise building scalable systems and AI-first development practices. Proven track record designing learning programs that strengthen technical excellence through active learning, mentorship, and thoughtful integration of emerging technologies. Co-author of globally-adopted technical textbook covering modern full-stack development. Passionate about building cultures where senior engineers grow as mentors, learning becomes systematic, and excellence scales through knowledge sharing.
+
+% ===== Core Competencies =====
+\section*{Core Competencies}
+\begin{multicols}{3}
+\begin{itemize}
+    \item Engineering Education \& Training
+    \item Mentorship Program Design
+    \item Active Learning \& Pedagogy
+    \item Technical Curriculum Development
+    \item AI Integration in Learning
+    \item Full-Stack Development (TypeScript)
+    \item System Architecture \& Design
+    \item Developer Experience (DX)
+    \item Technical Documentation
+    \item Community Building
+    \item Engineering Culture
+    \item Continuous Improvement
+\end{itemize}
+\end{multicols}
+
+% ===== Professional Experience =====
+\section*{Professional Experience}
+
+\experience{Development Manager}{Jun 2022 -- Present}{Confidential Tech Company (Developer Tools Platform)}{Remote, Canada}
+\begin{itemize}
+    \item Pioneered \tech{AI-first development practices}, building MCP (Model Context Protocol) server integration and custom AI workflows—demonstrating thoughtful AI integration that amplifies engineering excellence without replacing human judgment
+    \item Mentored \tech{engineers to senior levels} through code reviews, pair programming, design discussions, and technical coaching—fostering growth mindset and technical excellence across team
+    \item Established comprehensive \tech{developer documentation standards} and API references with focus on developer experience (DX), ensuring clear abstractions and intuitive workflows
+    \item Built \tech{learning culture} where continuous improvement, experimentation, and knowledge sharing thrive—engineers empowered to grow autonomously while maintaining high standards
+    \item Created \tech{video tutorials, quickstart guides, and sample applications} for developer platform, helping engineers integrate complex automation systems into their workflows
+    \item Championed \tech{modern engineering practices}: CI/CD pipelines (40\% build time reduction), automated testing frameworks, observability, and technical documentation
+    \item Led distributed team delivering quarterly releases with \tech{95\%+ on-time delivery} through clear communication, capacity planning, and collaborative culture
+\end{itemize}
+
+\experience{Lead Technical Author \& Curriculum Architect}{Mar 2014 -- Sep 2021}{Pearson Education (Global EdTech Platform)}{Remote}
+\begin{itemize}
+    \item Co-authored 3 editions of \tech{``Fundamentals of Web Development''} covering modern full-stack: React, Node.js, TypeScript, Express, REST/GraphQL APIs, microservices, CI/CD, cloud deployment—adopted by \tech{200+ institutions globally}
+    \item Designed \tech{active learning curriculum} with exercise-centric pedagogy: hands-on coding exercises, iterative projects, real-world case studies, and progressive skill-building
+    \item Created \tech{learning frameworks} balancing technical depth with accessibility, making complex system design concepts understandable to diverse learners
+    \item Developed comprehensive \tech{technical documentation} and teaching materials demonstrating best practices in software engineering, architecture patterns, and development workflows
+    \item Collaborated with Product, Research, and Marketing teams using structured editorial processes—demonstrating cross-functional alignment in large EdTech organization
+\end{itemize}
+
+\experience{Associate Dean (Senior Academic Leadership)}{Jan 2017 -- Feb 2018}{Sheridan College, School of Applied Computing}{Ontario, Canada}
+\begin{itemize}
+    \item Led \tech{strategic transformation of computing programs} serving 2,000+ students across 11 STEM programs (Computer Science, Software Engineering, Mobile Dev, Game Dev)
+    \item Managed \tech{11 program coordinators who led their own teams} (125+ faculty total), demonstrating ability to develop leaders at scale and build collaborative, high-performing culture
+    \item Drove \tech{curriculum innovation and program modernization}, aligning technical education with industry needs, emerging technologies, and student learning outcomes
+    \item Owned \tech{operational execution} for large-scale academic programs: scheduling, resource allocation, continuous improvement, quality assurance, and data-driven iteration
+    \item Built \tech{culture of continuous improvement}, fostering inclusive environment where diversity initiatives increased female enrollment 30\%
+    \item Partnered with industry leaders (Apple, Microsoft, Unity) on strategic initiatives, demonstrating ability to bridge academic and industry perspectives
+\end{itemize}
+
+\experience{Associate Professor \& Department Chair}{Aug 2007 -- Dec 2016}{Mount Royal University}{Calgary, Canada}
+\begin{itemize}
+    \item Taught \tech{software engineering, full-stack development, and system design} to 100+ students annually for 10 years, covering Node.js, React, TypeScript, databases, architecture patterns, and DevOps
+    \item Designed \tech{hands-on, project-based curriculum} emphasizing active learning: capstone projects from concept to production, Git workflows, agile practices, code reviews, and collaborative development
+    \item Mentored students through \tech{complex technical challenges}, career development, and technical growth—establishing foundation for mentorship and coaching expertise
+    \item Drove \tech{50\% enrollment growth} through curriculum innovation, industry partnerships, and data-driven program improvements
+    \item Built production \tech{web application} (PHP/MySQL/JavaScript) serving 100k+ users with 50k+ daily API queries and 99.9\% uptime—demonstrating hands-on technical depth
+    \item Led department transformation through organizational change, curriculum overhaul, and strategic planning with transparency and collaborative leadership
+\end{itemize}
+
+\experience{Co-Founder \& Technical Lead}{Jun 2005 -- Present}{Silicon Hanna Inc (Development Studio)}{Remote, Canada}
+\begin{itemize}
+    \item Built \tech{full-stack applications from 0-to-1}, shipping 12+ products with 500k+ downloads—demonstrating entrepreneurial mindset and bias toward action
+    \item Architected \tech{scalable backend systems} with RESTful APIs, authentication flows, cloud infrastructure (AWS), and microservices supporting thousands of concurrent users
+    \item Established \tech{modern development practices}: CI/CD pipelines, automated testing, agile methodologies, continuous delivery—supporting rapid iteration and quality
+    \item Practiced \tech{AI-first development}, integrating LLM APIs, building custom AI workflows, and leveraging emerging technologies to accelerate development velocity
+\end{itemize}
+
+% ===== Education & Teaching Excellence =====
+\section*{Education \& Teaching Excellence}
+\begin{itemize}[nosep]
+    \item \textbf{Educator Expertise:} 10 years teaching software engineering to hundreds of students with proven track record of learning outcomes and career success
+    \item \textbf{Active Learning Design:} Co-authored globally-adopted textbook using exercise-centric pedagogy, hands-on projects, and progressive skill-building
+    \item \textbf{Mentorship at Scale:} Managed programs serving 2,000+ students, demonstrating operational execution, scheduling, iteration, and systematic improvement
+    \item \textbf{AI Integration Thoughtfulness:} Early adopter using AI to amplify excellence (MCP integration, LLM workflows) while maintaining human judgment and rigor
+    \item \textbf{Curriculum Development:} Designed modern full-stack curriculum covering TypeScript, React, Node.js, system design, microservices, CI/CD
+    \item \textbf{Developer Advocacy:} Created video tutorials, documentation, quickstart guides, and sample applications for complex technical platforms
+    \item \textbf{Community Building:} Fostered collaborative cultures where learning, experimentation, and knowledge sharing thrive
+    \item \tech{M.Sc. Computer Science} -- University of Calgary \hfill 2004
+    \item \tech{B.Sc. Computer Science} (Minor: Pure Mathematics) -- University of Calgary \hfill 2002
+\end{itemize}
+
+% ===== Publications =====
+\section*{Selected Publications}
+\begin{itemize}[nosep,leftmargin=*]
+    \item Connolly, R., \textbf{Hoar, R.} ``Fundamentals of Web Development'' (3rd Ed.), Pearson, 2023 \\
+    \textit{Covers TypeScript, Node.js, React, system design, microservices, CI/CD—active learning pedagogy adopted by 200+ institutions}
+    \item \textbf{Hoar, R.}, Connolly, R. ``Constructing and Revising a Web Development Textbook'', WWW Conference, 2016
+\end{itemize}
+
+% ===== Technical Skills =====
+\section*{Technical Skills}
+\textbf{Full-Stack Development:} TypeScript, JavaScript (ES6+), Node.js, Express, React, REST/GraphQL APIs, microservices \\
+\textbf{System Architecture:} Scalable systems, distributed systems, cloud-native infrastructure (AWS), performance optimization \\
+\textbf{AI \& Innovation:} MCP integration, LLM APIs, AI-powered development workflows, emerging technologies \\
+\textbf{Developer Experience:} API design, technical documentation, developer advocacy, SDKs, code examples \\
+\textbf{DevOps \& Tooling:} CI/CD pipelines, automated testing, Docker, containers, observability, infrastructure as code \\
+\textbf{Databases:} MySQL, MongoDB, PostgreSQL, SQL/NoSQL design, query optimization \\
+\textbf{Education \& Mentorship:} Curriculum design, active learning, technical training, mentorship programs, community building
+
+\end{document}
