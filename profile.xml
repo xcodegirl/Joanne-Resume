@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<profile>
+    <personal_info>
+        <name>RICARDO HOAR</name>
+        <title>Senior Software Engineering Leader</title>
+        <email>ricardo.hoar@gmail.com</email>
+        <linkedin>ricardo-hoar</linkedin>
+        <github include_by_default="false">ricardohoarH</github>
+        <phone></phone>
+        <location></location>
+        <website></website>
+    </personal_info>
+
+    <summary>
+        Engineering leader with 15+ years experience fostering collaborative teams through mentorship and empathy.
+    </summary>
+
+    <skills>
+        <!-- Add your skills grouped by category -->
+        <category name="Programming Languages">
+            <skill>C++</skill>
+            <skill>C#</skill>
+            <skill>Python</skill>
+            <skill>JavaScript/TypeScript</skill>
+            <skill>PHP</skill>
+            <skill>Java</skill>
+            <skill>Swift</skill>
+            <skill>Kotlin</skill>
+            <skill>Ruby</skill>
+        </category>
+
+        <category name="Game Development">
+            <skill>Unreal Engine</skill>
+            <skill>Unity</skill>
+            <skill>Mobile Game Development</skill>
+            <skill>Multiplayer Systems</skill>
+            <skill>AR/VR</skill>
+        </category>
+
+        <category name="Web Technologies">
+            <skill>React</skill>
+            <skill>Node.js</skill>
+            <skill>HTML/CSS</skill>
+            <skill>GraphQL</skill>
+            <skill>PHP</skill>
+        </category>
+
+        <category name="Databases">
+            <skill>MySQL</skill>
+            <skill>SQL</skill>
+            <skill>SQLite</skill>
+            <skill>NoSQL</skill>
+        </category>
+
+        <category name="DevOps &amp; Tools">
+            <skill>CI/CD</skill>
+            <skill>Microservices</skill>
+            <skill>LAMP Stack</skill>
+            <skill>Git/SVN</skill>
+            <skill>Agile Development</skill>
+        </category>
+
+        <category name="AI &amp; Automation">
+            <skill>MCP (Model Context Protocol)</skill>
+            <skill>LLM Integration</skill>
+            <skill>Test Automation</skill>
+        </category>
+
+        <category name="Leadership">
+            <skill>Team Management</skill>
+            <skill>Curriculum Development</skill>
+            <skill>Technical Writing</skill>
+            <skill>Mentorship</skill>
+        </category>
+    </skills>
+</profile>

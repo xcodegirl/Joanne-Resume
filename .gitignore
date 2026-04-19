@@ -1,0 +1,13 @@
+*.pdf
+*.log
+*.aux
+*.out
+*.DS_Store
+*.tex
+*.txt
+*.html
+*.md
+*.pdf
+temp/
+applications/
+fonts/

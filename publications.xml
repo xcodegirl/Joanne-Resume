@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<publications>
+    <!-- Textbook -->
+    <publication type="book" year="2014">
+        <authors>Connolly, R., Hoar, R.</authors>
+        <title>Fundamentals of Web Development</title>
+        <publisher>Pearson</publisher>
+        <date>February 2014</date>
+        <editions>3 editions (2014, 2018, 2023)</editions>
+        <translations>Greek, Azerbaijani, Chinese</translations>
+        <notes>Adopted by 200+ colleges and universities worldwide</notes>
+    </publication>
+
+    <!-- Conference Papers and Proceedings -->
+    <publication type="conference" year="2016">
+        <authors>Hoar, R., Connolly, R.</authors>
+        <title>The Garden of Earthly Delights: Constructing and Revising a Web Development Textbook</title>
+        <venue>Proceedings of the Workshop on Web Education at the 25th WWW Conference</venue>
+        <location>Montreal, Canada</location>
+        <date>April 11-15, 2016</date>
+    </publication>
+
+    <publication type="conference" year="2014">
+        <authors>Hoar, R.</authors>
+        <title>The Real World Web: How Institutional IT Affects The Delivery Of A Capstone Web Development Course</title>
+        <venue>Proceedings of the 2014 Western Canadian Conference on Computing Education</venue>
+        <location>Richmond, BC</location>
+        <date>May 2-3, 2014</date>
+    </publication>
+
+    <publication type="conference" year="2014">
+        <authors>Hoar, R.</authors>
+        <title>Generally Educated In The 21st Century: The Importance Of Computer Literacy In An Undergraduate Curriculum</title>
+        <venue>Proceedings of the 2014 Western Canadian Conference on Computing Education</venue>
+        <location>Richmond, BC</location>
+        <date>May 2-3, 2014</date>
+    </publication>
+
+    <publication type="conference" year="2010">
+        <authors>Hoar, R.</authors>
+        <title>A Personalized Web Based Public Transit Information System With User Feedback</title>
+        <venue>Proceedings of the 13th Annual IEEE Conference on Intelligent Transportation Systems</venue>
+        <location>Madeira, Portugal</location>
+        <date>September 2010</date>
+    </publication>
+
+    <publication type="conference" year="2010">
+        <authors>Hoar, R.</authors>
+        <title>Yes they can! Second-year Student Software Development: A Case Study</title>
+        <venue>Proceedings of the 2010 Western Canadian Conference on Computing Education</venue>
+        <location>Kelowna, BC</location>
+        <date>May 7-8, 2010</date>
+    </publication>
+
+    <publication type="conference" year="2009">
+        <authors>Hoar, R.</authors>
+        <title>Visualizing transit data through a web-based information system</title>
+        <venue>Proceedings of the 2009 GeoTec Event</venue>
+        <location>Vancouver, BC</location>
+        <date>June 1-4, 2009</date>
+    </publication>
+
+    <publication type="conference" year="2008">
+        <authors>Hoar, R.</authors>
+        <title>Visualizing Transit Through a Web Based Geographic Information System</title>
+        <venue>Proceedings of the WASET 5th International Conference on Geographic Information Systems (ICGIS 2008)</venue>
+        <location>Bangkok, Thailand</location>
+        <date>December 17-19, 2008</date>
+    </publication>
+
+    <publication type="conference" year="2003">
+        <authors>Hoar, R., Penner, J., Jacob, C.</authors>
+        <title>Transcription and Evolution of a Virtual Bacteria Culture</title>
+        <venue>Proceedings of the IEEE Congress on Evolutionary Computation (CEC 2003)</venue>
+        <location>Canberra, ACT, Australia</location>
+        <date>December 8-12, 2003</date>
+    </publication>
+
+    <publication type="conference" year="2003">
+        <authors>Penner, J., Hoar, R., Jacob, C.</authors>
+        <title>Bacterial Chemotaxis in silico</title>
+        <venue>Proceedings of the First Australian Conference on Artificial Life (ACAL 2003)</venue>
+        <location>Canberra, ACT, Australia</location>
+        <date>December 6-7, 2003</date>
+        <award>Best Student Paper Award</award>
+    </publication>
+
+    <publication type="journal" year="2003">
+        <authors>Hoar, R., Penner, J.</authors>
+        <title>The Application of Artificial Intelligence to Transportation System Design</title>
+        <venue>ACM Crossroads</venue>
+        <volume>Vol. 9(3)</volume>
+        <publisher>ACM Press, New York, NY</publisher>
+        <date>2003</date>
+    </publication>
+
+    <publication type="conference" year="2002">
+        <authors>Penner, J., Hoar, R., Jacob, C.</authors>
+        <title>Swarm-Based Traffic Simulation with Evolutionary Traffic Light Adaptation</title>
+        <venue>Proceedings of the IASTED International Conference Applied Simulation and Modelling (ASM 2002)</venue>
+        <location>Crete, Greece</location>
+        <publisher>ACTA Press, Calgary, AB</publisher>
+        <date>June 25-28, 2002</date>
+        <pages>pp. 289-294</pages>
+    </publication>
+
+    <publication type="conference" year="2002">
+        <authors>Hoar, R., Penner, J., Jacob, C.</authors>
+        <title>Evolutionary Swarm Traffic: If Ant Roads had Traffic Lights</title>
+        <venue>Proceedings of the IEEE Congress on Evolutionary Computation (CEC 2002)</venue>
+        <location>Honolulu, Hawaii</location>
+        <publisher>IEEE Press, Piscataway, NJ</publisher>
+        <date>May 12-17, 2002</date>
+        <pages>pp. 1910-1916</pages>
+    </publication>
+</publications>

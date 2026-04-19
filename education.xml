@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<education>
+    <degree id="edu001">
+        <level>M.Sc.</level>
+        <field>Computer Science</field>
+        <institution>University of Calgary</institution>
+        <location>Calgary, Alberta</location>
+        <graduation_year>2004</graduation_year>
+        <honors></honors>
+        <thesis></thesis>
+        <relevant_coursework></relevant_coursework>
+    </degree>
+
+    <degree id="edu002">
+        <level>B.Sc.</level>
+        <field>Computer Science</field>
+        <institution>University of Calgary</institution>
+        <location>Calgary, Alberta</location>
+        <graduation_year>2002</graduation_year>
+        <honors></honors>
+        <thesis></thesis>
+        <relevant_coursework></relevant_coursework>
+    </degree>
+
+    <degree id="edu003" include_by_default="false">
+        <level>Ed.D.</level>
+        <field>Educational Leadership</field>
+        <status>Incomplete - Coursework Completed</status>
+        <institution>Western University</institution>
+        <location>Ontario</location>
+        <start_year>2017</start_year>
+        <end_year>2019</end_year>
+        <honors></honors>
+        <thesis></thesis>
+        <relevant_coursework></relevant_coursework>
+    </degree>
+</education>
