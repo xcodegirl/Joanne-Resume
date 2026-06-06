@@ -1,26 +1,130 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <leadership_service>
     <service id="srv001">
-        <role>Chair</role>
-        <organization>Hanna Public Library</organization>
+        <role>Treasurer</role>
+        <organization>Hanna &amp; District Minor Soccer Association</organization>
+        <start_year>2025</start_year>
+        <end_year>Present</end_year>
+        <description></description>
+    </service>
+
+    <service id="srv002">
+        <role>Vice President</role>
+        <organization>Hanna Figure Skating Club</organization>
+        <start_year>2024</start_year>
+        <end_year>Present</end_year>
+        <description></description>
+    </service>
+
+    <service id="srv003">
+        <role>Costume Coordinator</role>
+        <organization>Stage Hanna Junior</organization>
+        <start_year>2024</start_year>
+        <end_year>2024</end_year>
+        <description></description>
+    </service>
+
+    <service id="srv004">
+        <role>Women of bitHeads and Cookbook Committee</role>
+        <organization>bitHeads</organization>
+        <start_year>2024</start_year>
+        <end_year>2024</end_year>
+        <description></description>
+    </service>
+
+    <service id="srv005">
+        <role>Team Manager/Assistant Coach, U11 Soccer</role>
+        <organization></organization>
+        <start_year>2024</start_year>
+        <end_year>2024</end_year>
+        <description></description>
+    </service>
+
+    <service id="srv006">
+        <role>Dryland Training Coordinator</role>
+        <organization>Hanna Figure Skating Club</organization>
         <start_year>2022</start_year>
         <end_year>2024</end_year>
         <description></description>
     </service>
 
-    <service id="srv002">
-        <role>Secretary</role>
-        <organization>Canadian Association for Computer Science</organization>
-        <start_year>2011</start_year>
-        <end_year>2013</end_year>
+    <service id="srv007">
+        <role>4-H Public Speaking Judge, District Level Competition</role>
+        <organization></organization>
+        <start_year>2022</start_year>
+        <end_year>2022</end_year>
         <description></description>
     </service>
 
-    <service id="srv003">
-        <role>Chair</role>
-        <organization>General Faculties Council, Mount Royal University</organization>
-        <start_year>2011</start_year>
-        <end_year>2012</end_year>
+    <service id="srv008">
+        <role>Computer Programming for Kids</role>
+        <organization>J.C. Charyk School</organization>
+        <start_year>2019</start_year>
+        <end_year>2021</end_year>
+        <description></description>
+    </service>
+
+    <service id="srv009">
+        <role>Reading Program</role>
+        <organization>Our Lady of Fatima School</organization>
+        <start_year>2016</start_year>
+        <end_year>2018</end_year>
+        <description></description>
+    </service>
+
+    <service id="srv010">
+        <role>Preschool Gym Leader</role>
+        <organization>YMCA</organization>
+        <start_year>2013</start_year>
+        <end_year>2014</end_year>
+        <description></description>
+    </service>
+
+    <service id="srv011">
+        <role>OpenGL Elective Instructor</role>
+        <organization>Fekete Associates</organization>
+        <start_year>2010</start_year>
+        <end_year>2010</end_year>
+        <description></description>
+    </service>
+
+    <service id="srv012">
+        <role>Calgary Corporate Challenge</role>
+        <organization></organization>
+        <start_year>2007</start_year>
+        <end_year>2008</end_year>
+        <description></description>
+    </service>
+
+    <service id="srv013">
+        <role>Ladies Golf and Luncheon Club Coordinator</role>
+        <organization>BJ Pipeline Inspection</organization>
+        <start_year>2006</start_year>
+        <end_year>2008</end_year>
+        <description></description>
+    </service>
+
+    <service id="srv014">
+        <role>SCIberMENTOR</role>
+        <organization></organization>
+        <start_year>2002</start_year>
+        <end_year>2005</end_year>
+        <description></description>
+    </service>
+
+    <service id="srv015">
+        <role>President</role>
+        <organization>Computer Science Graduate Society</organization>
+        <start_year>2002</start_year>
+        <end_year>2003</end_year>
+        <description></description>
+    </service>
+
+    <service id="srv016">
+        <role>VP Academic</role>
+        <organization>Computer Science Undergraduate Society</organization>
+        <start_year>2001</start_year>
+        <end_year>2001</end_year>
         <description></description>
     </service>
 </leadership_service>

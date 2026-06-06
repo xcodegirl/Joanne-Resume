@@ -1,200 +1,146 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <experiences>
     <experience id="exp001">
-        <title>Development Manager (Tech Lead + Team Leadership)</title>
-        <company>Confidential Tech Company</company>
-        <location>Remote</location>
-        <start_date>Jun 2022</start_date>
+        <title>Technology Instructor</title>
+        <company>Robertson College (contract)</company>
+        <location></location>
+        <start_date>Jan 2025</start_date>
         <end_date>Present</end_date>
-        <role_type>Hands-on technical leadership role: 90% coding (C++/C# production code daily), 10% management (meetings, roadmap, team coordination). CTO handles most management decisions - this is a tech lead who codes, not a pure people manager.</role_type>
+        <role_type></role_type>
         <achievements>
-            <achievement>Write production C++/C# code daily (90% of time) architecting cross-platform test automation framework for Unreal Engine 4.27-5.6 using C++/C# and .NET to allow QA departments to automate game testing.</achievement>
-            <achievement>Develop backend services and APIs using C# and .NET for test automation platform infrastructure - hands-on implementation, not just oversight.</achievement>
-            <achievement>Developed an MCP (Model Context Protocol) server to expose company APIs and Unreal/Unity games to LLMs like Claude, demonstrating bleeding-edge AI integration skills and developer tooling expertise.</achievement>
-            <achievement>Lead 5-engineer team using agile development methodologies in a fully remote environment while remaining hands-on with code implementation.</achievement>
-            <achievement>Created video tutorials, quickstart guides, and sample applications for game testing automation platform, helping game developers integrate test automation into Unreal Engine and Unity workflows.</achievement>
-            <achievement>Built comprehensive technical documentation, API references, and code examples demonstrating best practices for integrating test automation with Unreal Engine and Unity.</achievement>
-            <achievement>Engaged directly with developer community through support channels, Slack communities, and GitHub discussions, gathering feedback to inform product roadmap.</achievement>
-            <achievement>Served as voice of the developer internally, partnering with Product and Engineering to influence feature prioritization based on community feedback and developer pain points.</achievement>
-            <achievement>Established DevOps best practices including CI/CD pipelines, automated testing frameworks, and developer productivity tooling through hands-on implementation.</achievement>
-            <achievement>Built developer-facing APIs and SDKs with focus on developer experience (DX), ensuring clean abstractions, clear error messages, and intuitive workflows - personally writing production code daily.</achievement>
+            <achievement>Develop and deliver interactive course materials for 50+ students per term.</achievement>
+            <achievement>Manage and update a GitHub repository hosting open-source course materials.</achievement>
+            <achievement>Host live coding sessions, debugging student projects in real-time and archiving recordings for asynchronous review.</achievement>
+            <achievement>Participate in ongoing professional development, including monthly instructor training seminars.</achievement>
         </achievements>
-        <technologies>C#, .NET, C++, Unreal Engine, MCP, AI/LLM, Claude, Unity, Video Production, Technical Writing, Developer Advocacy</technologies>
-        <tags>hands-on-coding,tech-lead,leadership,game-development,ai,automation,testing,devrel,content-creation,community,dotnet,csharp,staff-engineer-level</tags>
+        <technologies>C#, Databases, ASP .Net Core, Front End Frameworks, Javascript, Java, GitHub, Azure</technologies>
+        <tags></tags>
     </experience>
 
     <experience id="exp002">
-        <title>President, CEO</title>
-        <company>Silicon Hanna Inc</company>
-        <location>Remote</location>
-        <start_date>Jun 2005</start_date>
-        <end_date>Present</end_date>
+        <title>Senior Software Developer</title>
+        <company>bitHeads Inc.</company>
+        <location></location>
+        <start_date>2022</start_date>
+        <end_date>2025</end_date>
+        <role_type></role_type>
         <achievements>
-            <achievement>As a partner in a two person software development studio along with my wife, I manage every aspect of the corporation, which focuses on iOS app development.</achievement>
-            <achievement>Built WordPress-based MLS integration system for real estate agents, using WordPress as a CMS platform with custom plugins to integrate Multiple Listing Service data feeds.</achievement>
-            <achievement>Developed custom WordPress plugins and themes to extend CMS functionality for client websites.</achievement>
-            <achievement>Past projects include casual word and physics games, with a recent focus on Augmented Reality apps for education.</achievement>
-            <achievement>Shipped 12 mobile titles (Android/iOS) using Unreal Engine with native SDK integration (Swift/Kotlin)</achievement>
-            <achievement>Engineered real-time multiplayer system, multiplayer puzzle games and integrated Apple apis including GameCenter and AR.</achievement>
+            <achievement>Developed and maintained cross-platform client API for BaaS to add gamification and real-time multiplayer tech for AAA and Indie Studios.</achievement>
+            <achievement>Developed and released demo games and projects.</achievement>
+            <achievement>Engineered and maintained CI/CD and TDD pipeline.</achievement>
+            <achievement>Responded to customer issues and feature requests.</achievement>
         </achievements>
-        <technologies>iOS, Unreal Engine, Android, Swift, Kotlin, GameCenter, AR, multiplayer, WordPress, PHP, MLS integration, CMS</technologies>
-        <tags>mobile-development,game-development,startup,multiplayer,entrepreneurship,wordpress,cms</tags>
+        <technologies>Unreal Engine, C++, Objective-C, Swift, iOS, Android Native, Java, PlayStation, Node.js, Groovy, C# (Unity, Godot), Shell Script, MacOS, Windows, Linux</technologies>
+        <tags></tags>
     </experience>
 
     <experience id="exp003">
-        <title>Associate Dean</title>
-        <company>Sheridan College</company>
-        <location>Greater Toronto Area, Ontario</location>
-        <start_date>Jan 2017</start_date>
-        <end_date>Feb 2018</end_date>
+        <title>Co-founder/ Lead Developer</title>
+        <company>Silicon Hanna Inc. (self-employed)</company>
+        <location></location>
+        <start_date>2011</start_date>
+        <end_date>2022</end_date>
+        <role_type></role_type>
         <achievements>
-            <achievement>Led the technical curriculum updates across 11 STEM programs (2,000+ students).</achievement>
-            <achievement>Managed 11 program coordinators who each led their own teams of faculty, establishing performance frameworks, hiring pipelines, and professional development programs.</achievement>
-            <achievement>Directed 125+ total faculty and instructors (25+ full time, 100+ PT) in delivery of 200+ technical courses annually across 11 programs.</achievement>
-            <achievement>Spearheaded $1.2M industry partnerships for applied VR/AR research projects</achievement>
-            <achievement>Represented institution at technical conferences, meetups, and industry events across Greater Toronto Area, advocating for modern technology education.</achievement>
-            <achievement>Hosted Apple CEO Tim Cook for institutional visit, coordinating technical demonstrations and community engagement.</achievement>
-            <achievement>Led speaking engagements at educational technology forums and industry partnerships, building institutional reputation.</achievement>
-            <achievement>Built relationships with technology companies (Apple, Microsoft, Unity) to improve student/developer experience and platform adoption.</achievement>
+            <achievement>Designed, coded and published nine games to commercial app stores for mobile devices.</achievement>
+            <achievement>Experimented with cutted edge device tech and SDKs.</achievement>
         </achievements>
-        <technologies>VR, AR, STEM curriculum, Public Speaking, Event Hosting, Community Building</technologies>
-        <tags>leadership,education,management,managing-managers,curriculum-development,public-speaking,devrel,community</tags>
+        <technologies>Unreal Engine, Objective-C / Swift, iOS, Android Native, Kotlin, Augmented Reality, MacOS, Windows</technologies>
+        <tags></tags>
     </experience>
 
     <experience id="exp004">
-        <title>Lead Technical Author</title>
-        <company>Pearson Education</company>
-        <location>Global</location>
-        <start_date>Mar 2014</start_date>
-        <end_date>Sep 2021</end_date>
+        <title>Tools Programmer</title>
+        <company>Fekete Associates Inc. (S&amp;P Global)</company>
+        <location></location>
+        <start_date>2008</start_date>
+        <end_date>2011</end_date>
+        <role_type></role_type>
         <achievements>
-            <achievement>Co-authored 3 editions of industry-standard textbook "Fundamentals of Web Development"</achievement>
-            <achievement>The 3rd Edition adds to the fundamentals of HTML, CSS and Javascript, SQL and PHP, with topics including React, Node, CSS preprocessors, TypeScript, SQLite and NoSQL databases, GraphQL, CI/CD, microservice architectures and more.</achievement>
-            <achievement>Authored comprehensive CMS chapter covering WordPress plugin development, theme architecture, and content management best practices (2nd Edition).</achievement>
-            <achievement>Authored advanced chapter on search engine architecture covering indexing strategies, reverse indexing, search algorithms, and information retrieval techniques.</achievement>
-            <achievement>Content adopted by 200+ institutions and translated into several languages.</achievement>
+            <achievement>Developed tools used mathematical modelled to maximize production and improve efficiency for major oil &amp; gas corporations.</achievement>
+            <achievement>Led research on a new system that reduced build times by 40%.</achievement>
         </achievements>
-        <technologies>HTML, CSS, JavaScript, React, Node.js, SQL, PHP, TypeScript, SQLite, NoSQL, GraphQL, CI/CD, microservices, WordPress, CMS, search engines, indexing</technologies>
-        <tags>education,web-development,technical-writing,publishing,search-engines,wordpress,cms</tags>
+        <technologies>C++, MFC, Windows</technologies>
+        <tags></tags>
     </experience>
 
     <experience id="exp005">
-        <title>Associate Professor &amp; Chair</title>
-        <company>Mount Royal University</company>
-        <location>Calgary</location>
-        <start_date>Aug 2007</start_date>
-        <end_date>Dec 2016</end_date>
+        <title>Intermediate Software Engineer</title>
+        <company>BJ Pipeline Inspection Services Inc. (Baker Hughes)</company>
+        <location></location>
+        <start_date>2005</start_date>
+        <end_date>2008</end_date>
+        <role_type></role_type>
         <achievements>
-            <achievement>Led development of municipal transit tracking app (PHP/MySQL) handling 50k+ daily queries</achievement>
-            <achievement>Drove 50% enrollment growth through industry-aligned curriculum in Java/C++/iOS</achievement>
-            <achievement>Championed computer literacy outside the computer science discipline.</achievement>
-            <achievement>Led the merger of the Mathematics and Computer Science departments.</achievement>
+            <achievement>Visualised in-line device data with OpenGL graphics.</achievement>
+            <achievement>Implemented neural network algorithms for anomaly detection.</achievement>
+            <achievement>Led development of custom web-based GIS reported software.</achievement>
+            <achievement>Improved low-level programming algorithms for data processing.</achievement>
         </achievements>
-        <technologies>PHP, MySQL, Java, C++, iOS</technologies>
-        <tags>education,leadership,web-development,curriculum-development</tags>
+        <technologies>C++, C, OpenGL, PHP, SQL, Neural Networks, Borland, Windows, Linux</technologies>
+        <tags></tags>
     </experience>
 
     <experience id="exp006">
-        <title>Software Developer</title>
-        <company>Clickspace Interactive</company>
-        <location>Calgary, Alberta</location>
-        <start_date>Mar 2007</start_date>
-        <end_date>Jul 2007</end_date>
+        <title>Co-founder / App Developer / Instructor</title>
+        <company>SuRJE Software Solutions Inc. (self-employed, contract)</company>
+        <location></location>
+        <start_date>2005</start_date>
+        <end_date>2008</end_date>
+        <role_type></role_type>
         <achievements>
-            <achievement>Collaborated with designers and other programmers on web applications that support online shopping and insurance claim management.</achievement>
-            <achievement>This software studio used agile methodologies and fostered an open and agile work environment.</achievement>
-            <achievement>Development relied on a variety of technologies from Ruby on Rails through to JSP.</achievement>
+            <achievement>Created and published physics-based games for iOS.</achievement>
+            <achievement>Technical writing, web development, google maps and firebase integration and server administration.</achievement>
+            <achievement>Developed course curriculum, instructed C++ programming and assessed student work with Department of Continued Education.</achievement>
         </achievements>
-        <technologies>Ruby on Rails, SQL, Java, JSP, LAMP, PHP, JavaScript</technologies>
-        <tags>web-development,agile,collaboration</tags>
-    </experience>
-
-    <experience id="exp006b">
-        <title>Software Developer</title>
-        <company>Premier GPS</company>
-        <location>Calgary, Alberta</location>
-        <start_date>Nov 2006</start_date>
-        <end_date>Mar 2007</end_date>
-        <achievements>
-            <achievement>This small software development studio required their software development systems, tools and practices be established from scratch to allow their mature GPS product to interface with modern web applications.</achievement>
-            <achievement>Prototypes I created were tested with HAWKS air ambulance and I designed and implemented redundant server systems to improve the reliability of relaying emergency signals from their GPS product.</achievement>
-        </achievements>
-        <technologies>GPS systems, web applications, redundant server systems</technologies>
-        <tags>systems-development,infrastructure,emergency-services</tags>
+        <technologies>C++, C, OpenGL, PHP, SQL, Neural Networks, Borland, Windows, Linux</technologies>
+        <tags></tags>
     </experience>
 
     <experience id="exp007">
-        <title>Web Architect</title>
-        <company>Alberta Securities Commission (Contract)</company>
-        <location>Calgary, Alberta</location>
-        <start_date>Jul 2006</start_date>
-        <end_date>Oct 2006</end_date>
+        <title>Software Researcher / Lead Developer</title>
+        <company>PlayStarMusic Corp.</company>
+        <location></location>
+        <start_date>2005</start_date>
+        <end_date>2006</end_date>
+        <role_type></role_type>
         <achievements>
-            <achievement>When hired I began by reducing the commission's website downtime from several minutes every hour to 0.</achievement>
-            <achievement>In addition I helped improve workflow for publication including both staging to production environments.</achievement>
-            <achievement>Developed dynamic fillable PDF systems for business process automation, including PDF parsing, generation, and form field manipulation.</achievement>
-            <achievement>I also worked with business units to improve processes using PDFs, web services and email system integration.</achievement>
+            <achievement>Lead developer and system administrator for an iTunes like music store.</achievement>
+            <achievement>Automated DRM encoded and video streamed.</achievement>
+            <achievement>Developed a prototype for a Google competitive search engine.</achievement>
         </achievements>
-        <technologies>CMS, web services, email integration, PDF processing, dynamic PDF generation</technologies>
-        <tags>web-development,performance-optimization,workflow-automation,pdf-processing</tags>
-    </experience>
-
-    <experience id="exp007b">
-        <title>Instructor</title>
-        <company>University of Calgary, Faculty of Continuing Education (Part Time Contract)</company>
-        <location>Calgary, Alberta</location>
-        <start_date>Sep 2006</start_date>
-        <end_date>Nov 2006</end_date>
-        <achievements>
-            <achievement>As an instructor replacing a teacher on leave I taught adults the principals of introductory web design.</achievement>
-            <achievement>Student reviews were very good, and all students were able to learn and make progress on their grasp of web.</achievement>
-        </achievements>
-        <technologies>HTML, CSS, web design</technologies>
-        <tags>education,teaching,web-development</tags>
+        <technologies>C++, PHP, Javascript, .NET, Windows, Linux</technologies>
+        <tags></tags>
     </experience>
 
     <experience id="exp008">
-        <title>Faculty Web Technical Administrator</title>
-        <company>University of Calgary, Faculty of Social Sciences (Contract)</company>
-        <location>Calgary, Alberta</location>
-        <start_date>Nov 2005</start_date>
-        <end_date>Jul 2006</end_date>
+        <title>Junior Software Engineer</title>
+        <company>Codefast.com</company>
+        <location></location>
+        <start_date>2004</start_date>
+        <end_date>2005</end_date>
+        <role_type></role_type>
         <achievements>
-            <achievement>Deployed and configured dozens of Drupal-based websites for multiple departmental and research sites across the Faculty of Social Sciences.</achievement>
-            <achievement>I inherited a incomplete site and hacked file server when the previous contractor walked away, and within a week I had secured the file system and launched a system wide content management system to support multiple departmental and research websites.</achievement>
-            <achievement>I trained staff on usage of the sites and worked on internal asset management software for the faculty.</achievement>
-            <achievement>I also administered a cluster of redundant web and mail servers which supported those sites.</achievement>
-            <achievement>The university wide CMS, whose selection I participated in, remains in place to this day.</achievement>
+            <achievement>Ported applications to operate under a new GUI library.</achievement>
+            <achievement>Developed user interfaces for software lifecycle automation.</achievement>
         </achievements>
-        <technologies>Drupal, CMS, web servers, mail servers, file system security, PHP, MySQL</technologies>
-        <tags>web-development,security,automation,system-administration,drupal,cms</tags>
+        <technologies>C++, Shell script, Windows, Unix, Qt, Wx</technologies>
+        <tags></tags>
     </experience>
 
     <experience id="exp009">
-        <title>Team Leader, Software Engineer</title>
-        <company>PlayStarMusic Corp</company>
-        <location>Calgary, Alberta</location>
-        <start_date>Apr 2005</start_date>
-        <end_date>Nov 2005</end_date>
+        <title>Research Assistant</title>
+        <company>VLab Computer Graphics Group / Artificial Intelligence Research Hub</company>
+        <location></location>
+        <start_date>2001</start_date>
+        <end_date>2004</end_date>
+        <role_type></role_type>
         <achievements>
-            <achievement>A venture initiative, aiming to supplant Google in Search and Apple in Music on a shoestring budget required their infrastructure and team to be built from the ground up.</achievement>
-            <achievement>This position required that I wear multiple hats including system administrator, programmer, designer, team leader and business analyst.</achievement>
+            <achievement>Developed graphics software tools used fractal math and biological modelling.</achievement>
+            <achievement>Managed network setup and code base for distributed computing.</achievement>
+            <achievement>Participated in interdepartmental projetcs, published five research papers, led student tutorials and marked assignments.</achievement>
         </achievements>
-        <technologies>system administration, search technology, music platforms</technologies>
-        <tags>startup,leadership,systems-programming,infrastructure</tags>
-    </experience>
-
-    <experience id="exp010">
-        <title>Software Engineer</title>
-        <company>Codefast.com (Contract)</company>
-        <location>Calgary, Alberta</location>
-        <start_date>Dec 2004</start_date>
-        <end_date>Mar 2005</end_date>
-        <achievements>
-            <achievement>C++ programmer in a company that developed universal compilers.</achievement>
-            <achievement>Adhered to programming requirements, managed time sheets and installed systems.</achievement>
-        </achievements>
-        <technologies>C++, compilers</technologies>
-        <tags>systems-programming</tags>
+        <technologies>C++, OpenGL, Solaris, MacOS, Unix, Linux, PHP, MySQL, Qt</technologies>
+        <tags></tags>
     </experience>
 </experiences>

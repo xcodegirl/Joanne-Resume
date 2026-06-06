@@ -1,9 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <honors>
     <honor id="hon001">
-        <title>Petro-Canada Young Innovator Award</title>
-        <organization>Petro-Canada</organization>
-        <year>2014</year>
+        <title>Departmental Nomination: Governor General's Gold Medal</title>
+        <organization>Faculty of Graduate Studies</organization>
+        <year>2005</year>
+        <description></description>
+    </honor>
+    <honor id="hon002">
+        <title>Postgraduate Scholarship NSERC D3</title>
+        <organization>Natural Sciences and Engineering Research Council of Canada</organization>
+        <year>2005</year>
+        <description></description>
+    </honor>
+    <honor id="hon003">
+        <title>Graduate Student Scholarship</title>
+        <organization>Alberta Learning</organization>
+        <year>2004</year>
+        <description></description>
+    </honor>
+    <honor id="hon004">
+        <title>Best Student Paper Award (Co-author)</title>
+        <organization>ACAL</organization>
+        <year>2003</year>
+        <description></description>
+    </honor>
+    <honor id="hon005">
+        <title>CPSC Departmental Research Award</title>
+        <organization>University of Calgary</organization>
+        <year>2003</year>
         <description></description>
     </honor>
 </honors>

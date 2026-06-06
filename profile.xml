@@ -1,76 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <profile>
     <personal_info>
-        <name>RICARDO HOAR</name>
-        <title>Senior Software Engineering Leader</title>
-        <email>ricardo.hoar@gmail.com</email>
-        <linkedin>ricardo-hoar</linkedin>
-        <github include_by_default="false">ricardohoarH</github>
-        <phone></phone>
-        <location></location>
+        <name>JOANNE HOAR</name>
+        <title>Senior Software Developer</title>
+        <email>joanne.hoar@gmail.com</email>
+        <linkedin>https://linkedin.com/in/joanne-hoar/</linkedin>
+        <github include_by_default="false">https://github.com/xcodegirl</github>
+        <phone>+1 403 854 8433</phone>
+        <location>Hanna, Alberta, Canada</location>
         <website></website>
     </personal_info>
 
     <summary>
-        Engineering leader with 15+ years experience fostering collaborative teams through mentorship and empathy.
+        Canadian Software Developer with 20 years of experience in video game programming, scientific modelling and cross-platform development. Expertise in multiple programming languages, game engines and SDKs. Proven track record in leading teams, mentoring developers, impressing customers and building corporate culture. Strong background in C++, Unreal Engine, iOS and Android using agile methodologies and CI/CD. Passion for algorithmic correctness, mathematics, artificial intelligence and nature.
     </summary>
 
     <skills>
-        <!-- Add your skills grouped by category -->
         <category name="Programming Languages">
             <skill>C++</skill>
             <skill>C#</skill>
-            <skill>Python</skill>
-            <skill>JavaScript/TypeScript</skill>
-            <skill>PHP</skill>
+            <skill>JavaScript</skill>
             <skill>Java</skill>
+            <skill>Objective-C</skill>
             <skill>Swift</skill>
             <skill>Kotlin</skill>
-            <skill>Ruby</skill>
-        </category>
-
-        <category name="Game Development">
-            <skill>Unreal Engine</skill>
-            <skill>Unity</skill>
-            <skill>Mobile Game Development</skill>
-            <skill>Multiplayer Systems</skill>
-            <skill>AR/VR</skill>
-        </category>
-
-        <category name="Web Technologies">
-            <skill>React</skill>
-            <skill>Node.js</skill>
-            <skill>HTML/CSS</skill>
-            <skill>GraphQL</skill>
             <skill>PHP</skill>
-        </category>
-
-        <category name="Databases">
-            <skill>MySQL</skill>
             <skill>SQL</skill>
-            <skill>SQLite</skill>
-            <skill>NoSQL</skill>
         </category>
 
-        <category name="DevOps &amp; Tools">
+        <category name="Game Development &amp; Graphics">
+            <skill>Unreal Engine</skill>
+            <skill>OpenGL</skill>
+            <skill>Augmented Reality</skill>
+            <skill>Real-time Multiplayer</skill>
+            <skill>Game SDK Integration</skill>
+        </category>
+
+        <category name="Platforms &amp; Frameworks">
+            <skill>iOS</skill>
+            <skill>Android Native</skill>
+            <skill>ASP .Net Core</skill>
+            <skill>Node.js</skill>
+            <skill>Qt</skill>
+            <skill>MFC</skill>
+        </category>
+
+        <category name="Tools &amp; Practices">
+            <skill>GitHub</skill>
+            <skill>Azure</skill>
             <skill>CI/CD</skill>
-            <skill>Microservices</skill>
-            <skill>LAMP Stack</skill>
-            <skill>Git/SVN</skill>
-            <skill>Agile Development</skill>
+            <skill>TDD</skill>
+            <skill>Shell Script</skill>
+            <skill>Agile Methodologies</skill>
         </category>
 
-        <category name="AI &amp; Automation">
-            <skill>MCP (Model Context Protocol)</skill>
-            <skill>LLM Integration</skill>
-            <skill>Test Automation</skill>
-        </category>
-
-        <category name="Leadership">
-            <skill>Team Management</skill>
-            <skill>Curriculum Development</skill>
-            <skill>Technical Writing</skill>
-            <skill>Mentorship</skill>
+        <category name="Languages">
+            <skill>English (native)</skill>
+            <skill>French (intermediate)</skill>
+            <skill>Spanish (rudimentary)</skill>
         </category>
     </skills>
 </profile>
