@@ -97,8 +97,8 @@ ufred-hci-application/  ← manually maintained Markdown; must be kept in sync w
 
 ## Pending Tasks (as of last session)
 
+- [x] **UFred AI SME application** — package built in `ufred-ai-sme-application/`. **Next action: send `initial-email.md` to Amna.Khaliq@UFred.ca.** Deadline was May 21 but posting still live; acknowledge gracefully in email. Contact is Dr. Amna Khaliq (named, warm outreach appropriate).
 - [ ] **LinkedIn profile update** — Chrome extension was not connected during the session. Joanne's LinkedIn profile has not been reviewed or updated. The GitHub handle on LinkedIn may still say `xcodegirl` only (the work GitHub `jo-codegirl` should also be listed).
-- [ ] **AI SME cover letter** — Joanne asked for a cover letter targeting an AI Subject Matter Expert role. Not yet built.
 - [ ] **CBE / U of C Continuing Education posting** — Joanne asked about a possible technical writer role at CBE (Calgary Board of Education). Not pursued; user interrupted the fetch attempt. Revisit if still relevant.
 - [ ] **PDF compilation check** — confirm `joanne_improved.pdf` renders cleanly with the now-longer publications section (5 papers) and new Nickle Arts Museum entry. May need a layout review.
 
@@ -109,6 +109,19 @@ ufred-hci-application/  ← manually maintained Markdown; must be kept in sync w
 | Package | Folder | Status |
 |---|---|---|
 | University of Fredericton — CPSC 2050 HCI Contract Faculty | `ufred-hci-application/` | Complete; proofread |
+| University of Fredericton — Learning Design Consultant (closes Jun 26, 2026) | `ufred-ld-application/` | Complete; proofread |
+| University of Fredericton — AI SME / Course Developer (deadline passed, post still live) | `ufred-ai-sme-application/` | Complete — initial email ready to send to Dr. Amna Khaliq (Amna.Khaliq@UFred.ca) |
+
+---
+
+## Key Work Samples
+
+| Sample | Location | Notes |
+|---|---|---|
+| Academic Integrity slideshow | `C:\Users\linux\Downloads\Academic Integrity.txt` | Slide deck for student-facing sessions on citing code, AI tools, and integrity at scale. Uses a 3-level AI assessment scale (Perkins et al. 2024). 7 citation examples including AI-generated code. Strong evidence for AI pedagogy and curriculum design. Cite in UFred LD and AI SME applications. |
+| Course outlines (7 courses) | `outlines/*.md` | Clean markdown versions of all Robertson College course outlines: T0507 Git, T0508 C#, T0509 .NET, T0502 OOP/Java, T0510 ASP.NET Core, T0511 FEF, B0979 Data Collection |
+| Public course materials | [github.com/xcodegirl](https://github.com/xcodegirl) | Open-source course materials, sample code, and corrected live-session examples |
+| Work samples index | [github.com/xcodegirl/career — xcodegirl-work-samples.md](https://github.com/xcodegirl/career/blob/main/xcodegirl-work-samples.md) | Master index of work samples |
 
 ---
 
