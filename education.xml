@@ -5,10 +5,11 @@
         <field>Computer Science</field>
         <institution>University of Calgary</institution>
         <location></location>
+        <start_year>2002</start_year>
         <graduation_year>2004</graduation_year>
         <honors></honors>
         <thesis>Agent-based Development of Natural Transportation Networks</thesis>
-        <relevant_coursework></relevant_coursework>
+        <relevant_coursework>Human-Computer Interaction, Computer Graphics, Artificial Intelligence</relevant_coursework>
     </degree>
 
     <degree id="edu002">
@@ -16,6 +17,7 @@
         <field>Computer Science</field>
         <institution>University of Calgary</institution>
         <location></location>
+        <start_year>1998</start_year>
         <graduation_year>2001</graduation_year>
         <honors></honors>
         <thesis></thesis>
