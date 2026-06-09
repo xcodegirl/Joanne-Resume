@@ -6,13 +6,15 @@
         <email>joanne.hoar@gmail.com</email>
         <linkedin>https://linkedin.com/in/joanne-hoar/</linkedin>
         <github include_by_default="false">https://github.com/xcodegirl</github>
+        <github_work include_by_default="false">https://github.com/jo-codegirl</github_work>
         <phone>+1 403 854 8433</phone>
-        <location>Hanna, Alberta, Canada</location>
+        <location>Hanna, Alberta, Canada (Remote)</location>
+        <youtube>https://www.youtube.com/@linuxcodegirl/playlists</youtube>
         <website></website>
     </personal_info>
 
     <summary>
-        Canadian Software Developer with 20 years of experience in video game programming, scientific modelling and cross-platform development. Expertise in multiple programming languages, game engines and SDKs. Proven track record in leading teams, mentoring developers, impressing customers and building corporate culture. Strong background in C++, Unreal Engine, iOS and Android using agile methodologies and CI/CD. Passion for algorithmic correctness, mathematics, artificial intelligence and nature.
+        Canadian Software Developer with 20 years of experience in video game programming, scientific modelling and cross-platform development. Expertise in multiple programming languages, game engines and SDKs. Proven track record in leading teams, mentoring developers, exceeding client expectations and building corporate culture. Strong background in C++, Unreal Engine, iOS and Android using agile methodologies and CI/CD. Passion for algorithmic correctness, mathematics, artificial intelligence and nature.
     </summary>
 
     <skills>

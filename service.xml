@@ -97,7 +97,7 @@
     </service>
 
     <service id="srv013">
-        <role>Ladies Golf and Luncheon Club Coordinator</role>
+        <role>Ladies Luncheon Club and Golf Tournament Coordinator</role>
         <organization>BJ Pipeline Inspection</organization>
         <start_year>2006</start_year>
         <end_year>2008</end_year>
@@ -105,7 +105,7 @@
     </service>
 
     <service id="srv014">
-        <role>SCIberMENTOR</role>
+        <role>SCIberMENTOR Correspondent / Mentor</role>
         <organization></organization>
         <start_year>2002</start_year>
         <end_year>2005</end_year>

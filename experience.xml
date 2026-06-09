@@ -6,14 +6,16 @@
         <location></location>
         <start_date>Jan 2025</start_date>
         <end_date>Present</end_date>
-        <role_type></role_type>
+        <role_type>Online Instructor-Guided (Complementary Learning)</role_type>
         <achievements>
-            <achievement>Develop and deliver interactive course materials for 50+ students per term.</achievement>
-            <achievement>Manage and update a GitHub repository hosting open-source course materials.</achievement>
-            <achievement>Host live coding sessions, debugging student projects in real-time and archiving recordings for asynchronous review.</achievement>
-            <achievement>Participate in ongoing professional development, including monthly instructor training seminars.</achievement>
+            <achievement>Instructed 20 course offerings across 12 subjects for Full Stack Development (FSD) and Data Analytics (DA) diploma programs.</achievement>
+            <achievement>Courses taught: C# Programming, .NET, ASP .NET, ASP .NET Core, Object-oriented Programming (Java), Front End Frameworks, Intro to JavaScript, Web Development Basics, Data Collection, Testing and Quality Assurance, Version Control with Git and GitHub, Introduction to IT.</achievement>
+            <achievement>Deliver a minimum of 3 synchronous live sessions per week per course, hosting live coding sessions and debugging student projects in real-time.</achievement>
+            <achievement>Manage and maintain a GitHub repository hosting open-source course materials and sample code.</achievement>
+            <achievement>Archive session recordings for asynchronous review and participate in ongoing monthly instructor training seminars.</achievement>
+            <achievement>Maintained an average student satisfaction rating of 4.5/5.0 across evaluated courses, with feedback highlighting approachability, real-world teaching approach, and responsiveness.</achievement>
         </achievements>
-        <technologies>C#, Databases, ASP .Net Core, Front End Frameworks, Javascript, Java, GitHub, Azure</technologies>
+        <technologies>C#, .NET, ASP .NET Core, Java, JavaScript, React, Front End Frameworks, Git, GitHub, Azure, SQL, Testing and QA, Data Collection</technologies>
         <tags></tags>
     </experience>
 
@@ -25,27 +27,33 @@
         <end_date>2025</end_date>
         <role_type></role_type>
         <achievements>
-            <achievement>Developed and maintained cross-platform client API for BaaS to add gamification and real-time multiplayer tech for AAA and Indie Studios.</achievement>
-            <achievement>Developed and released demo games and projects.</achievement>
-            <achievement>Engineered and maintained CI/CD and TDD pipeline.</achievement>
-            <achievement>Responded to customer issues and feature requests.</achievement>
+            <achievement>Developed and maintained cross-platform client SDKs for brainCloud BaaS, enabling gamification, leaderboards, matchmaking, lobbies, real-time multiplayer, and cloud code for 50+ published games across 12 platforms including PlayStation, Xbox, Nintendo Switch, Steam, iOS, and Android.</achievement>
+            <achievement>Primary focus on C++ client SDK, Unreal Engine plugin, iOS (Objective-C/Swift), Android Native (Java/Kotlin), and PlayStation; reviewed and debugged all other supported platforms and languages.</achievement>
+            <achievement>Built and maintained Unreal Engine sample projects including Space Shooter, Target Practice, Tappy Chicken, Relay Blast, and dedicated server demo to help onboard client studios.</achievement>
+            <achievement>Supported integration for notable titles including SUPERHOT VR (SUPERHOT Team), Tony Hawk's Skate Jam (Maple Media), Crypt of the NecroDancer (Brace Yourself Games), and Invizimals (PlayStation Mobile).</achievement>
+            <achievement>Engineered and maintained CI/CD and TDD pipelines ensuring high-quality multi-platform releases.</achievement>
+            <achievement>Designed and built demonstration applications and accompanying widget libraries for every supported client platform to showcase SDK capabilities — UI frameworks spanned Dear ImGui (C++), Unreal Engine UMG, SwiftUI/UIKit (iOS), Android Views (Java/Kotlin), Unity (C#), and PlayStation SDK.</achievement>
+            <achievement>Hired in part for educational background — role required teaching clients one-on-one how to use the API, strong documentation skills, and ability to develop academic examples and demonstrations.</achievement>
+            <achievement>Responded to customer issues and feature requests directly, maintaining strong relationships with AAA and Indie studio clients.</achievement>
         </achievements>
-        <technologies>Unreal Engine, C++, Objective-C, Swift, iOS, Android Native, Java, PlayStation, Node.js, Groovy, C# (Unity, Godot), Shell Script, MacOS, Windows, Linux</technologies>
+        <technologies>Unreal Engine, C++, Objective-C, Swift, iOS, Android Native, Java, Kotlin, PlayStation, Nintendo Switch, Xbox, Node.js, Groovy, C# (Unity, Godot), Shell Script, MacOS, Windows, Linux</technologies>
         <tags></tags>
     </experience>
 
     <experience id="exp003">
-        <title>Co-founder/ Lead Developer</title>
-        <company>Silicon Hanna Inc. (self-employed)</company>
+        <title>Co-founder / Lead Developer / Instructor</title>
+        <company>Silicon Hanna Inc. (self-employed; founded as SuRJE Software Solutions Inc.)</company>
         <location></location>
-        <start_date>2011</start_date>
+        <start_date>2005</start_date>
         <end_date>2022</end_date>
-        <role_type></role_type>
+        <role_type>Self-employed; operated concurrently with full-time employment at BJ Pipeline (2005–2008) and Fekete Associates (2008–2011); primary focus from 2011 until joining bitHeads in 2022. Company founded as SuRJE Software Solutions Inc. (Swarms under Ricardo and Joanne using Evolution — a nod to graduate research in agent-based systems); renamed Silicon Hanna Inc. upon relocating the studio to Hanna, Alberta.</role_type>
         <achievements>
-            <achievement>Designed, coded and published nine games to commercial app stores for mobile devices.</achievement>
-            <achievement>Experimented with cutted edge device tech and SDKs.</achievement>
+            <achievement>Designed, coded, and published eleven games to commercial app stores for mobile devices — including Star Chase and Bitsy (2008, physics-based iOS games released under the SuRJE name) and nine further titles (2011–2022) under the Silicon Hanna brand.</achievement>
+            <achievement>Developed course curriculum and instructed intermediate C++ programming for the University of Calgary Department of Continuing Education; prepared well-organised lectures, sample code, and assignments; received positive student feedback.</achievement>
+            <achievement>Technical writing, web development, Google Maps and Firebase integration, and server administration.</achievement>
+            <achievement>Explored cutting-edge device technologies and SDKs including ARKit augmented reality, Chipmunk physics, and Unreal Engine.</achievement>
         </achievements>
-        <technologies>Unreal Engine, Objective-C / Swift, iOS, Android Native, Kotlin, Augmented Reality, MacOS, Windows</technologies>
+        <technologies>Unreal Engine, Objective-C, Swift, iOS, Android Native, Kotlin, Augmented Reality, ARKit, C++, OpenGL, PHP, SQL, MacOS, Windows, Linux</technologies>
         <tags></tags>
     </experience>
 
@@ -57,8 +65,10 @@
         <end_date>2011</end_date>
         <role_type></role_type>
         <achievements>
-            <achievement>Developed tools used mathematical modelled to maximize production and improve efficiency for major oil &amp; gas corporations.</achievement>
+            <achievement>Developed tools using mathematical models to maximize production and improve efficiency for major oil &amp; gas corporations.</achievement>
+            <achievement>Contributed to the company's shared UI tools library — the MFC-based component library used as the foundation for all internal development projects, ensuring consistent interaction patterns and visual design across the product suite.</achievement>
             <achievement>Led research on a new system that reduced build times by 40%.</achievement>
+            <achievement>Designed and delivered a voluntary OpenGL elective course for colleagues using the OpenGL Programming Guide as the core reference — covered the rendering pipeline, viewing projections, z-buffering, and geometric transformations; students built an interactive OpenGL widget within the company's custom MFC framework as a capstone project; accommodated both beginner programmers and senior developers; received positive response from students and senior staff.</achievement>
         </achievements>
         <technologies>C++, MFC, Windows</technologies>
         <tags></tags>
@@ -72,28 +82,12 @@
         <end_date>2008</end_date>
         <role_type></role_type>
         <achievements>
-            <achievement>Visualised in-line device data with OpenGL graphics.</achievement>
-            <achievement>Implemented neural network algorithms for anomaly detection.</achievement>
-            <achievement>Led development of custom web-based GIS reported software.</achievement>
-            <achievement>Improved low-level programming algorithms for data processing.</achievement>
+            <achievement>Visualized in-line inspection device data using OpenGL graphics for Vectra and Gemini 3D analysis products used by pipeline analysts and engineers.</achievement>
+            <achievement>Implemented neural network algorithms for automated anomaly detection.</achievement>
+            <achievement>Ported an Excel-based reporting workflow to a full LAMP web application — interactive JavaScript forms, dynamic charts, and interactive geographic maps — dramatically improving accessibility and usability of inspection data for non-technical stakeholders.</achievement>
+            <achievement>Improved low-level C++ algorithms for high-performance data preprocessing.</achievement>
         </achievements>
-        <technologies>C++, C, OpenGL, PHP, SQL, Neural Networks, Borland, Windows, Linux</technologies>
-        <tags></tags>
-    </experience>
-
-    <experience id="exp006">
-        <title>Co-founder / App Developer / Instructor</title>
-        <company>SuRJE Software Solutions Inc. (self-employed, contract)</company>
-        <location></location>
-        <start_date>2005</start_date>
-        <end_date>2008</end_date>
-        <role_type></role_type>
-        <achievements>
-            <achievement>Created and published physics-based games for iOS.</achievement>
-            <achievement>Technical writing, web development, google maps and firebase integration and server administration.</achievement>
-            <achievement>Developed course curriculum, instructed C++ programming and assessed student work with Department of Continued Education.</achievement>
-        </achievements>
-        <technologies>C++, C, OpenGL, PHP, SQL, Neural Networks, Borland, Windows, Linux</technologies>
+        <technologies>C++, C, OpenGL, PHP, JavaScript, SQL, Neural Networks, LAMP, Borland, Windows, Linux</technologies>
         <tags></tags>
     </experience>
 
@@ -103,11 +97,11 @@
         <location></location>
         <start_date>2005</start_date>
         <end_date>2006</end_date>
-        <role_type></role_type>
+        <role_type>Concurrent with early BJ Pipeline tenure</role_type>
         <achievements>
-            <achievement>Lead developer and system administrator for an iTunes like music store.</achievement>
-            <achievement>Automated DRM encoded and video streamed.</achievement>
-            <achievement>Developed a prototype for a Google competitive search engine.</achievement>
+            <achievement>Designed and built the end-user interface for a media streaming storefront — browsing, playback controls, purchase flow, and seamless DRM integration that kept the listening experience uninterrupted.</achievement>
+            <achievement>Lead developer and system administrator for the full platform stack (iTunes-like storefront, DRM encoding pipeline, video streaming).</achievement>
+            <achievement>Developed a prototype for a competitive search engine.</achievement>
         </achievements>
         <technologies>C++, PHP, Javascript, .NET, Windows, Linux</technologies>
         <tags></tags>
@@ -121,10 +115,11 @@
         <end_date>2005</end_date>
         <role_type></role_type>
         <achievements>
-            <achievement>Ported applications to operate under a new GUI library.</achievement>
-            <achievement>Developed user interfaces for software lifecycle automation.</achievement>
+            <achievement>Primary mandate was building graphical user interfaces for existing command-line tools — translating CLI workflows into usable, discoverable desktop applications.</achievement>
+            <achievement>Ported applications across GUI libraries (Qt, Wx), ensuring consistent look-and-feel and interaction behaviour under a new UI framework.</achievement>
+            <achievement>Developed user interfaces for software lifecycle automation tooling.</achievement>
         </achievements>
-        <technologies>C++, Shell script, Windows, Unix, Qt, Wx</technologies>
+        <technologies>C++, Qt, Wx, Shell script, Windows, Unix</technologies>
         <tags></tags>
     </experience>
 
@@ -138,7 +133,8 @@
         <achievements>
             <achievement>Developed graphics software tools used fractal math and biological modelling.</achievement>
             <achievement>Managed network setup and code base for distributed computing.</achievement>
-            <achievement>Participated in interdepartmental projetcs, published five research papers, led student tutorials and marked assignments.</achievement>
+            <achievement>Participated in interdepartmental projects and published five research papers.</achievement>
+            <achievement>Served as teaching assistant for both introductory first-year and advanced third-year courses — supplemented instructor lesson plans with independent presentations, code and math walk-throughs; received positive student feedback.</achievement>
         </achievements>
         <technologies>C++, OpenGL, Solaris, MacOS, Unix, Linux, PHP, MySQL, Qt</technologies>
         <tags></tags>

@@ -10,6 +10,24 @@
         <notes>https://github.com/xcodegirl/career/blob/main/xcodegirl-work-samples.md</notes>
     </publication>
 
+    <publication type="journal" year="2003">
+        <authors>Hoar, R., Jacob, C.</authors>
+        <title>The application of artificial intelligence to transportation system design</title>
+        <venue>XRDS: Crossroads, The ACM Magazine for Students</venue>
+        <location></location>
+        <date>2003</date>
+        <notes>Co-authored publication in ACM XRDS</notes>
+    </publication>
+
+    <publication type="conference" year="2003">
+        <authors>Hoar, J., et al.</authors>
+        <title>Bacterial Chemotaxis in Silico</title>
+        <venue>Australian Conference on Artificial Life (ACAL)</venue>
+        <location></location>
+        <date>2003</date>
+        <notes>Best Student Paper Award recipient</notes>
+    </publication>
+
     <publication type="game" year="2020">
         <authors></authors>
         <title>Ragin' Bull</title>
@@ -97,7 +115,7 @@
         <venue></venue>
         <location></location>
         <date>2008</date>
-        <notes>Platforms: iOS</notes>
+        <notes>Platforms: iOS. Published under SuRJE Software Solutions Inc.</notes>
     </publication>
 
     <publication type="game" year="2008">
@@ -106,6 +124,6 @@
         <venue></venue>
         <location></location>
         <date>2008</date>
-        <notes>Platforms: iOS</notes>
+        <notes>Platforms: iOS. Published under SuRJE Software Solutions Inc.</notes>
     </publication>
 </publications>
