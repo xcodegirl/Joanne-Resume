@@ -519,15 +519,19 @@ def render(profile, experiences, education, honors, publications, service):
 # ---------------------------------------------------------------------------
 def main():
     parser = argparse.ArgumentParser(
-        description="Generate joanne_improved.tex from XML source files."
+        description="Generate Joanne's resume from XML source files."
     )
     parser.add_argument(
-        "--output", default=DEFAULT_OUT,
-        help=f"Output .tex path (default: {DEFAULT_OUT})"
+        "--format", choices=["tex", "md", "all"], default="tex",
+        help="Output format: tex (default), md, or all (both)"
+    )
+    parser.add_argument(
+        "--output",
+        help="Custom output path (overrides default for the chosen format)"
     )
     parser.add_argument(
         "--compile", action="store_true",
-        help="Compile the generated .tex to PDF using pdflatex"
+        help="Compile the generated .tex to PDF using pdflatex (tex/all only)"
     )
     args = parser.parse_args()
 
@@ -539,32 +543,46 @@ def main():
     publications = load_publications()
     service      = load_service()
 
-    print("Generating LaTeX...")
-    tex = render(profile, experiences, education, honors, publications, service)
+    do_tex = args.format in ("tex", "all")
+    do_md  = args.format in ("md",  "all")
 
-    out_path = os.path.abspath(args.output)
-    os.makedirs(os.path.dirname(out_path), exist_ok=True)
-    with open(out_path, "w", encoding="utf-8") as f:
-        f.write(tex)
-    print(f"  Written: {out_path}")
+    # ---- LaTeX ----
+    if do_tex:
+        tex_path = os.path.abspath(args.output if args.output and not do_md else DEFAULT_OUT)
+        os.makedirs(os.path.dirname(tex_path), exist_ok=True)
+        print("Generating LaTeX...")
+        tex = render(profile, experiences, education, honors, publications, service)
+        with open(tex_path, "w", encoding="utf-8") as f:
+            f.write(tex)
+        print(f"  Written: {tex_path}")
 
-    if args.compile:
-        out_dir = os.path.dirname(out_path)
-        print("Compiling with pdflatex...")
-        result = subprocess.run(
-            [PDFLATEX, "-interaction=nonstopmode",
-             f"-output-directory={out_dir}", out_path],
-            capture_output=True, text=True
-        )
-        if result.returncode == 0:
-            pdf = out_path.replace(".tex", ".pdf")
-            print(f"  PDF generated: {pdf}")
-        else:
-            errors = [l for l in result.stdout.splitlines() if l.startswith("!")]
-            print("  pdflatex errors:")
-            for e in errors:
-                print(f"    {e}")
-            print("  (check the .log file for details)")
+        if args.compile:
+            out_dir = os.path.dirname(tex_path)
+            print("Compiling with pdflatex...")
+            result = subprocess.run(
+                [PDFLATEX, "-interaction=nonstopmode",
+                 f"-output-directory={out_dir}", tex_path],
+                capture_output=True, text=True
+            )
+            if result.returncode == 0:
+                pdf = tex_path.replace(".tex", ".pdf")
+                print(f"  PDF generated: {pdf}")
+            else:
+                errors = [l for l in result.stdout.splitlines() if l.startswith("!")]
+                print("  pdflatex errors:")
+                for e in errors:
+                    print(f"    {e}")
+                print("  (check the .log file for details)")
+
+    # ---- Markdown ----
+    if do_md:
+        md_path = os.path.abspath(args.output if args.output and not do_tex else DEFAULT_MD)
+        os.makedirs(os.path.dirname(md_path), exist_ok=True)
+        print("Generating Markdown...")
+        md = render_markdown(profile, experiences, education, honors, publications, service)
+        with open(md_path, "w", encoding="utf-8") as f:
+            f.write(md)
+        print(f"  Written: {md_path}")
 
 if __name__ == "__main__":
     main()

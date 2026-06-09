@@ -40,11 +40,17 @@ Joanne-Resume/
 All resume content lives in the XML source files. Edit those, then regenerate:
 
 ```bash
-# Generate .tex only
+# Generate .tex only (default)
 python generate_resume.py
 
-# Generate .tex and compile to PDF
-python generate_resume.py --compile
+# Generate Markdown only → markdown/joanne_resume.md
+python generate_resume.py --format md
+
+# Generate both .tex and .md
+python generate_resume.py --format all
+
+# Generate both and compile .tex to PDF
+python generate_resume.py --format all --compile
 
 # Custom output path
 python generate_resume.py --output latex/custom_variant.tex --compile
