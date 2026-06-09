@@ -8,7 +8,7 @@ Hanna, Alberta, Canada · Remote
 
 ## Summary
 
-Canadian Software Developer and Technology Educator with a Master of Science in Computer Science (University of Calgary, including graduate-level HCI coursework) and more than twenty years of continuous experience building user-facing systems. HCI has been the common thread across every role: translating CLIs into desktop GUIs at the start of my career, designing streaming media interfaces and interactive web applications mid-career, building cross-platform widget libraries and demonstration applications across seven UI frameworks at an SDK company, and now teaching front-end UI development to the next generation of developers online. Committed to accessible, student-centred teaching and connecting HCI theory to real professional practice.
+Canadian Software Developer and Technology Educator with a Master of Science in Computer Science (University of Calgary, including graduate-level HCI coursework) and more than twenty years of continuous experience building user-facing systems. HCI has been the common thread across every role: building immersive CAVE virtual reality installations during graduate research, translating CLIs into desktop GUIs at the start of my career, designing streaming media interfaces and interactive web applications mid-career, building cross-platform widget libraries and demonstration applications across seven UI frameworks at an SDK company, and now teaching front-end UI development to the next generation of developers online. Committed to accessible, student-centred teaching and connecting HCI theory to real professional practice.
 
 ---
 
@@ -50,11 +50,22 @@ Canadian Software Developer and Technology Educator with a Master of Science in 
 
 ---
 
+### Web Developer / VR Artist *(contract)* · Nickle Arts Museum, University of Calgary
+**2002 – 2004 · Collaboration with artist Gerald Hushlak**
+
+- Gathered requirements, designed, and implemented the interactive online catalogue for the **Gerald Hushlak art exhibit** (swarmart.com) — built interactive features using JavaScript.
+- Contributed original **generative art** to the exhibit: Bacterial Chemotaxis visualisations produced from simulation research were displayed alongside the featured works.
+- Collaborated with Hushlak on a **pioneering VR installation** using the University of Calgary **CAVE** (Cave Automatic Virtual Environment) — 3D-scanned the artist's head, loaded the resulting models, and built an immersive spatial experience years before consumer VR existed; an early and hands-on example of designing for presence, embodiment, and spatial interaction.
+
+`C++ · OpenGL · CAVE VR · 3D Scanning · JavaScript · PHP · HTML`
+
+---
+
 ### Research / Teaching Assistant · VLab Computer Graphics Group / Artificial Intelligence Research Hub, University of Calgary
 **2001 – 2004**
 
-- Served as TA for both introductory first-year and advanced third-year computer science courses.
-- Supplemented instructor lesson plans with independent presentations and code and mathematics walk-throughs; received positive student feedback.
+- Served as TA and lab instructor across three courses: **Introduction to Programming** (first year), **Computing for Non-Majors** (first year), and **Operating Systems** (third year).
+- Led weekly lab sessions; supplemented instructor lesson plans with independent presentations and code and mathematics walk-throughs; received positive student feedback.
 - Participated in interdepartmental research projects and contributed to five published papers.
 
 `C++ · OpenGL · PHP · Linux · Solaris`
@@ -141,8 +152,13 @@ Canadian Software Developer and Technology Educator with a Master of Science in 
 
 ## Selected Publications
 
-- Hoar, J., et al. "Bacterial Chemotaxis in Silico," *Australian Conference on Artificial Life (ACAL)*, 2003 — **Best Student Paper Award**
-- Hoar, R., and Jacob, C. "The application of artificial intelligence to transportation system design," *XRDS: Crossroads, ACM Magazine for Students*, 2003
+*(Published under maiden name Penner)*
+
+- Penner, J., Hoar, R., Jacob, C. "Bacterial Chemotaxis in Silico," *Proceedings of the First Australian Conference on Artificial Life (ACAL)*, 2003 — **Best Student Paper Award**
+- Hoar, R., Penner, J., Jacob, C. "Transcription and Evolution of a Virtual Bacteria Culture," *IEEE Congress on Evolutionary Computation (CEC)*, 2003
+- Hoar, R., Penner, J. "The Application of Artificial Intelligence to Transportation System Design," *XRDS: Crossroads, The ACM Magazine for Students*, Vol. 9(3), 2003
+- Penner, J., Hoar, R., Jacob, C. "Swarm-Based Traffic Simulation with Evolutionary Traffic Light Adaptation," *IASTED International Conference on Applied Simulation and Modelling (ASM)*, 2002
+- Hoar, R., Penner, J., Jacob, C. "Evolutionary Swarm Traffic: If Ant Roads Had Traffic Lights," *IEEE Congress on Evolutionary Computation (CEC)*, 2002
 
 ---
 

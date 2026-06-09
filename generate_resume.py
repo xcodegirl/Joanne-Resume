@@ -22,7 +22,9 @@ import argparse
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 LATEX_DIR  = os.path.join(SCRIPT_DIR, "latex")
 DEFAULT_OUT = os.path.join(LATEX_DIR, "joanne_improved.tex")
-PDFLATEX   = r"C:\Users\linux\AppData\Local\Programs\MiKTeX\miktex\bin\x64\pdflatex.exe"
+PDFLATEX    = r"C:\Users\linux\AppData\Local\Programs\MiKTeX\miktex\bin\x64\pdflatex.exe"
+MARKDOWN_DIR = os.path.join(SCRIPT_DIR, "markdown")
+DEFAULT_MD   = os.path.join(MARKDOWN_DIR, "joanne_resume.md")
 
 # ---------------------------------------------------------------------------
 # LaTeX escaping
@@ -176,6 +178,155 @@ def load_service():
 # ---------------------------------------------------------------------------
 # Renderer
 # ---------------------------------------------------------------------------
+def render_markdown(profile, experiences, education, honors, publications, service):
+    """Render a clean, GitHub-renderable Markdown resume from XML data."""
+    L = []
+    display_name = profile["name"].title()
+
+    # ---- Header ----
+    L += [
+        f"# {display_name}",
+        f"**{profile['title']}**",
+        "",
+    ]
+    contact = []
+    if profile["email"]:
+        contact.append(f"[{profile['email']}](mailto:{profile['email']})")
+    if profile["phone"]:
+        contact.append(profile["phone"])
+    if profile["location"]:
+        contact.append(profile["location"])
+    if contact:
+        L.append("  ·  ".join(contact) + "  ")
+    links = []
+    if profile["linkedin"]:
+        handle = profile["linkedin"].rstrip("/").split("/")[-1]
+        links.append(f"[linkedin.com/in/{handle}]({profile['linkedin']})")
+    gh1 = profile.get("github", "")
+    gh2 = profile.get("github_work", "")
+    if gh1:
+        h1 = gh1.rstrip("/").split("/")[-1]
+        links.append(f"[github.com/{h1}]({gh1})")
+    if gh2:
+        h2 = gh2.rstrip("/").split("/")[-1]
+        links.append(f"[github.com/{h2}]({gh2})")
+    if profile.get("youtube"):
+        links.append(f"[YouTube: linuxcodegirl]({profile['youtube']})")
+    if profile.get("discord"):
+        links.append(f"Discord: {profile['discord']}")
+    if links:
+        L.append("  ·  ".join(links))
+    L.append("")
+    L.append("---")
+    L.append("")
+
+    # ---- Summary ----
+    L += ["## Summary", "", profile["summary"].strip(), "", "---", ""]
+
+    # ---- Skills ----
+    skills_root = profile.get("skills")
+    if skills_root is not None:
+        L += ["## Technical Skills", ""]
+        L += ["| Category | Skills |", "|---|---|"]
+        for cat in skills_root.findall("category"):
+            name = cat.get("name", "")
+            if name == "Languages":
+                continue  # rendered separately below
+            skills = [sk.text.strip() for sk in cat.findall("skill") if sk.text]
+            if skills:
+                L.append(f"| **{name}** | {', '.join(skills)} |")
+        L += ["", "---", ""]
+
+    # ---- Experience ----
+    L += ["## Experience", ""]
+    for exp in experiences:
+        date = f"{exp['start']} – {exp['end']}"
+        L.append(f"### {exp['title']}  ·  {exp['company']}")
+        L.append(f"**{date}**")
+        if exp.get("role_type"):
+            L.append(f"*{exp['role_type']}*")
+        L.append("")
+        for a in exp["achievements"]:
+            L.append(f"- {a}")
+        if exp["technologies"]:
+            techs = [f"`{tech.strip()}`" for tech in exp["technologies"].split(",") if tech.strip()]
+            L.append("")
+            L.append("  ".join(techs))
+        L += ["", "---", ""]
+
+    # ---- Education ----
+    L += ["## Education", ""]
+    for deg in education:
+        start = deg.get("start", "")
+        end   = deg.get("end", "")
+        date  = f"{start}–{end}" if start else end
+        L.append(f"**{deg['level']}, {deg['field']}**  ·  {deg['institution']}  ·  {date}")
+        if deg["thesis"]:
+            L.append(f"*Thesis: {deg['thesis']}*")
+        if deg["coursework"]:
+            L.append(f"*Relevant coursework: {deg['coursework']}*")
+        L.append("")
+    L += ["---", ""]
+
+    # ---- Publications ----
+    academic = publications.get("academic", [])
+    if academic:
+        L += ["## Publications", ""]
+        for pub in academic:
+            note = f" *({pub['notes']})*" if pub.get("notes") else ""
+            L.append(f"- {pub['authors']}. \"{pub['title']},\" *{pub['venue']}*, {pub['year']}.{note}")
+        L += ["", "---", ""]
+
+    # ---- Honours ----
+    L += ["## Honours & Awards", ""]
+    L += ["| Award | Organisation | Year |", "|---|---|---|"]
+    for h in honors:
+        L.append(f"| {h['title']} | {h['org']} | {h['year']} |")
+    L += ["", "---", ""]
+
+    # ---- Service ----
+    L += ["## Community Outreach & Leadership", ""]
+    for s in service:
+        org = f", {s['org']}" if s["org"] else ""
+        L.append(f"- {s['role']}{org} · {s['years']}")
+    L += ["", "---", ""]
+
+    # ---- Languages ----
+    if skills_root is not None:
+        for cat in skills_root.findall("category"):
+            if cat.get("name") == "Languages":
+                L += ["## Languages", ""]
+                for sk in cat.findall("skill"):
+                    if sk.text:
+                        lang = sk.text.strip()
+                        if "(" in lang:
+                            name_part, prof = lang.split("(", 1)
+                            L.append(f"- **{name_part.strip()}** — {prof.rstrip(')')}")
+                        else:
+                            L.append(f"- **{lang}**")
+                L += ["", "---", ""]
+
+    # ---- Published Games ----
+    games = publications.get("games", [])
+    if games:
+        L += ["## Published Interactive Applications", ""]
+        L.append("*Silicon Hanna Inc. (founded as SuRJE Software Solutions Inc.)*")
+        L.append("")
+        L += ["| Title | Platform | Year |", "|---|---|---|"]
+        for g in games:
+            L.append(f"| {g['title']} | {g['platform']} | {g['year']} |")
+        L += ["", "---", ""]
+
+    # ---- Work Samples ----
+    if publications.get("work_sample"):
+        url = publications["work_sample"]
+        L += ["## Work Samples", ""]
+        L.append(f"[xcodegirl/career — work-samples]({url})")
+        L.append("")
+
+    return "\n".join(L)
+
+
 def render(profile, experiences, education, honors, publications, service):
     L = []
 

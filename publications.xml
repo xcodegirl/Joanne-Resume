@@ -11,21 +11,48 @@
     </publication>
 
     <publication type="journal" year="2003">
-        <authors>Hoar, R., Jacob, C.</authors>
-        <title>The application of artificial intelligence to transportation system design</title>
-        <venue>XRDS: Crossroads, The ACM Magazine for Students</venue>
+        <authors>Hoar, R., Penner, J.</authors>
+        <title>The Application of Artificial Intelligence to Transportation System Design</title>
+        <venue>XRDS: Crossroads, The ACM Magazine for Students, Vol. 9(3), ACM Press</venue>
         <location></location>
         <date>2003</date>
-        <notes>Co-authored publication in ACM XRDS</notes>
+        <notes>Published under maiden name Penner. Ricardo Hoar first author; Joanne second.</notes>
     </publication>
 
     <publication type="conference" year="2003">
-        <authors>Hoar, J., et al.</authors>
+        <authors>Penner, J., Hoar, R., Jacob, C.</authors>
         <title>Bacterial Chemotaxis in Silico</title>
-        <venue>Australian Conference on Artificial Life (ACAL)</venue>
+        <venue>Proceedings of the First Australian Conference on Artificial Life (ACAL), Canberra, Australia</venue>
         <location></location>
         <date>2003</date>
-        <notes>Best Student Paper Award recipient</notes>
+        <notes>Best Student Paper Award recipient. Published under maiden name Penner.</notes>
+    </publication>
+
+    <publication type="conference" year="2003">
+        <authors>Hoar, R., Penner, J., Jacob, C.</authors>
+        <title>Transcription and Evolution of a Virtual Bacteria Culture</title>
+        <venue>Proceedings of the IEEE Congress on Evolutionary Computation (CEC), Canberra, Australia</venue>
+        <location></location>
+        <date>2003</date>
+        <notes>Published under maiden name Penner.</notes>
+    </publication>
+
+    <publication type="conference" year="2002">
+        <authors>Penner, J., Hoar, R., Jacob, C.</authors>
+        <title>Swarm-Based Traffic Simulation with Evolutionary Traffic Light Adaptation</title>
+        <venue>Proceedings of the IASTED International Conference on Applied Simulation and Modelling (ASM), Crete, Greece</venue>
+        <location></location>
+        <date>2002</date>
+        <notes>Published under maiden name Penner.</notes>
+    </publication>
+
+    <publication type="conference" year="2002">
+        <authors>Hoar, R., Penner, J., Jacob, C.</authors>
+        <title>Evolutionary Swarm Traffic: If Ant Roads Had Traffic Lights</title>
+        <venue>Proceedings of the IEEE Congress on Evolutionary Computation (CEC), Honolulu, Hawaii</venue>
+        <location></location>
+        <date>2002</date>
+        <notes>Published under maiden name Penner.</notes>
     </publication>
 
     <publication type="game" year="2020">

@@ -113,10 +113,18 @@
     </service>
 
     <service id="srv015">
-        <role>President</role>
+        <role>Vice President</role>
         <organization>Computer Science Graduate Society</organization>
         <start_year>2002</start_year>
         <end_year>2003</end_year>
+        <description></description>
+    </service>
+
+    <service id="srv017">
+        <role>Program Committee Member (Peer Reviewer), Agents in Traffic and Transportation Workshop (ATT) at AAMAS 2004</role>
+        <organization>Autonomous Agents and Multiagent Systems</organization>
+        <start_year>2004</start_year>
+        <end_year>2004</end_year>
         <description></description>
     </service>
 

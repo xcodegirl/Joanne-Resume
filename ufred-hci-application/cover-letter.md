@@ -26,6 +26,8 @@ On the teaching side, I have been a Technology Instructor at **Robertson College
 
 I work in the Brightspace/D2L environment daily — the same platform the University of Fredericton employs — and I am fully comfortable with all aspects of asynchronous and synchronous online course delivery.
 
+Alongside my graduate research, I collaborated with artist **Gerald Hushlak** on two projects that now feel prescient: an interactive online catalogue for his exhibit (swarmart.com) where my own generative Bacterial Chemotaxis simulations were displayed as artworks, and a **CAVE virtual reality installation** at the University of Calgary — 3D-scanning Hushlak's head, loading the resulting models, and building an immersive spatial experience using the university's Cave Automatic Virtual Environment. This was years before consumer VR existed. Designing for presence, embodiment, and spatial interaction is not new territory for me.
+
 My academic background includes graduate research in agent-based computing and biologically inspired systems, contributions to five published research papers, a departmental nomination for the Governor General's Gold Medal, an NSERC Postgraduate Scholarship (D3), and a Best Student Paper Award at the Australian Conference on Artificial Life. I bring both the technical depth and the scholarly perspective that a university-level HCI course demands.
 
 I would welcome the opportunity to discuss how my background in interactive systems, interface design, and technology education aligns with the goals of CPSC 2050. Thank you for your time and consideration.

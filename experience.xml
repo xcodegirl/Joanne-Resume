@@ -123,6 +123,22 @@
         <tags></tags>
     </experience>
 
+    <experience id="exp010">
+        <title>Web Developer / VR Artist (Contract)</title>
+        <company>Nickle Arts Museum, University of Calgary — collaboration with artist Gerald Hushlak</company>
+        <location></location>
+        <start_date>2002</start_date>
+        <end_date>2004</end_date>
+        <role_type>Contract collaboration concurrent with M.Sc. research</role_type>
+        <achievements>
+            <achievement>Gathered requirements, designed, and implemented the interactive online catalogue for the Gerald Hushlak art exhibit (swarmart.com) — built interactive features using JavaScript.</achievement>
+            <achievement>Contributed original generative art to the exhibit: Bacterial Chemotaxis visualisations produced from simulation research were displayed alongside the featured works.</achievement>
+            <achievement>Collaborated with Hushlak on a pioneering VR installation using the University of Calgary CAVE (Cave Automatic Virtual Environment) — 3D-scanned the artist's head, loaded the resulting models into the CAVE, and built an immersive spatial experience years before consumer VR existed.</achievement>
+        </achievements>
+        <technologies>C++, OpenGL, CAVE VR, 3D Scanning, JavaScript, PHP, HTML, CSS</technologies>
+        <tags></tags>
+    </experience>
+
     <experience id="exp009">
         <title>Research Assistant</title>
         <company>VLab Computer Graphics Group / Artificial Intelligence Research Hub</company>
@@ -134,7 +150,7 @@
             <achievement>Developed graphics software tools used fractal math and biological modelling.</achievement>
             <achievement>Managed network setup and code base for distributed computing.</achievement>
             <achievement>Participated in interdepartmental projects and published five research papers.</achievement>
-            <achievement>Served as teaching assistant for both introductory first-year and advanced third-year courses — supplemented instructor lesson plans with independent presentations, code and math walk-throughs; received positive student feedback.</achievement>
+            <achievement>Served as teaching assistant and lab instructor across three courses: Introduction to Programming (first year), Computing for Non-Majors (first year), and Operating Systems (third year) — led weekly lab sessions, supplemented instructor lesson plans with independent presentations and code and mathematics walk-throughs, and received positive student feedback.</achievement>
         </achievements>
         <technologies>C++, OpenGL, Solaris, MacOS, Unix, Linux, PHP, MySQL, Qt</technologies>
         <tags></tags>
