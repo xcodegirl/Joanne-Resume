@@ -1,38 +1,30 @@
-# Initial Outreach Email — Dr. Amna Khaliq
+# Initial Outreach Email - Dr. Amna Khaliq
 
 **To:** Amna.Khaliq@UFred.ca  
-**Subject:** AI Course Development — Background Overview (Joanne Hoar)
+**Subject:** AI Course Development - Joanne Hoar
 
 ---
 
 Dr. Khaliq,
 
-I am writing in response to UFred's posting for an AI Subject Matter Expert for course development. I note the original deadline has passed but the posting remains active, and I hope you are still accepting expressions of interest.
+I noticed the posting for an AI Subject Matter Expert is still active and wanted to reach out, even though the original deadline has passed.
 
-I am an active online instructor at Robertson College, where I teach across twelve subjects in the Full Stack Development and Data Analytics diploma programs on Brightspace/D2L. I hold a Master of Science in Computer Science from the University of Calgary and have more than twenty years of experience in software development, followed by a deliberate move into technology education in 2025.
+I am interested in developing an AI course for UFred and feel that I would be a great fit for this work. I am formally educated in Computer Science, with an M.Sc. from the University of Calgary, and am an experienced software developer and online instructor, with additional experience applying and teaching AI tools in a post-secondary setting. I currently teach at Robertson College, where I develop and maintain all course materials for twenty offerings across twelve subjects in the Full Stack Development and Data Analytics programs on Brightspace/D2L.
 
-AI is not a peripheral interest for me — it is a daily professional practice. I use generative AI tools across my content development workflow, and I teach students how to use AI responsibly: as a tool, not a solution, with the practitioner ultimately responsible for everything they produce. I built and actively deliver a slide deck on academic integrity and AI that covers citation of AI-generated code, terms of service obligations, institutional policy, and a three-level AI assessment framework. Responsible AI use is something I teach, not just something I talk about.
+I use AI tools daily in my work, for content development, coding, CLI workflows and process automation. I also teach students how to use AI responsibly, as a tool rather than a solution, with the practitioner accountable for everything they produce. I have built a slide deck on AI and academic integrity that I deliver every term, covering citation of AI-generated code, terms of service, institutional policy and a tiered framework for what AI assistance is appropriate on different types of assessments. This month I completed academic integrity training at Robertson and participated in the Academic Integrity Inter-Institutional Meeting (AIIIM 2026).
 
-The course areas I believe I could develop with the most depth and relevance are:
+Developing a course in this area is exactly the kind of work I want to be doing right now. The course areas I feel I could develop most effectively are AI Ethics and Governance, Generative AI and Prompt Engineering, and AI for Business Leaders. I have experience making technical concepts accessible to non-technical audiences and can ground all three in real professional practice rather than theory.
 
-- **AI Ethics and Governance** — connecting real-world policy, copyright, bias, and responsible use to organizational decision-making
-- **Generative AI and Prompt Engineering** — grounded in practical, structured use rather than hype
-- **AI for Business Leaders** — translating technical AI concepts into strategic and organizational terms for non-technical decision-makers
+Please find my resume attached. I would be happy to discuss which area would be most useful to UFred.
 
-I am comfortable designing for asynchronous online delivery, applying UDL principles, and building courses from learning outcomes through to assessments and weekly materials. Course development on a defined timeline is something I have done repeatedly.
+Thank you for your time,
 
-I have attached a brief CV. I would welcome the opportunity to discuss which course area would be the strongest fit for UFred's current needs.
-
-Thank you for your time.
-
-**Joanne Hoar**, M.Sc. Computer Science  
+Jo Hoar  
 joanne.hoar@gmail.com · +1 403 854 8433  
 [linkedin.com/in/joanne-hoar](https://linkedin.com/in/joanne-hoar/) · [github.com/xcodegirl](https://github.com/xcodegirl)
 
 ---
 
-*Notes for Joanne before sending:*
-- *Attach the tailored resume from `resume.md` in this folder*
-- *The subject line is intentional — it's specific without being a formal application header*
-- *Keep it this length — she asked for "brief overview"; this is about right*
-- *If she responds, follow up with the full cover letter*
+*Notes before sending:*
+- *Attach `joanne_hoar_resume.pdf` from this folder*
+- *If she responds, follow up with `cover-letter.md` from this folder*

@@ -82,6 +82,8 @@ Targeted application packages live in their own subfolders as Markdown, which re
 | Package | Role | Format |
 |---|---|---|
 | [`ufred-hci-application/`](ufred-hci-application/) | University of Fredericton — CPSC 2050 HCI Contract Faculty | Markdown |
+| [`ufred-ld-application/`](ufred-ld-application/) | University of Fredericton — Learning Design Consultant | Markdown |
+| [`ufred-ai-sme-application/`](ufred-ai-sme-application/) | University of Fredericton — AI Subject Matter Expert / Course Developer | Markdown + PDF |
 
 ---
 

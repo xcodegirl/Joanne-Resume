@@ -1,0 +1,180 @@
+\documentclass[10pt]{article}
+\usepackage[letterpaper,margin=0.7in]{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage[hidelinks]{hyperref}
+\usepackage{xcolor}
+\usepackage{ragged2e}
+\usepackage{fontawesome5}
+\usepackage[default]{raleway}
+\usepackage{multicol}
+
+% Colors
+\definecolor{accent}{RGB}{10,60,90}
+\definecolor{secondary}{RGB}{30,30,30}
+
+% Font settings
+\renewcommand{\familydefault}{\sfdefault}
+\newcommand{\mytitle}[1]{\color{accent}\normalfont\large\bfseries{#1}}
+
+% Section formatting
+\titleformat{\section}{\mytitle}{}{0em}{}[{\titlerule[0.8pt]}]
+\titlespacing{\section}{0pt}{9pt}{5pt}
+
+% Itemize styling
+\setlist[itemize]{leftmargin=*,nosep,after=\vspace{3pt}}
+\setlist[itemize]{label=\color{accent}\scriptsize\raisebox{0.4ex}{\textbullet}}
+
+% Custom commands
+\newcommand{\tech}[1]{\textcolor{secondary}{\textbf{#1}}}
+
+\newcommand{\experience}[4]{%
+  \vspace{4pt}
+  \begin{tabular*}{\textwidth}{@{}l@{\extracolsep{\fill}}r@{}}
+    \textbf{#1} & \textit{#2} \\
+    \textit{\small#3} & \textit{\small#4}
+  \end{tabular*}
+  \vspace{-4pt}
+}
+
+\begin{document}
+
+% ===== Header =====
+\begin{center}
+    {\Huge \textbf{JOANNE HOAR, M.Sc.}} \\[4pt]
+    {\Large \tech{Software Developer \textbullet\ Technology Educator \textbullet\ AI Practitioner}} \\[6pt]
+    \faIcon{at}~\href{mailto:joanne.hoar@gmail.com}{joanne.hoar@gmail.com}
+    \hfill
+    \faIcon{phone}~+1\,403\,854\,8433
+    \hfill
+    \faIcon{linkedin}~\href{https://linkedin.com/in/joanne-hoar/}{linkedin.com/in/joanne-hoar}
+    \hfill
+    \faIcon{github}~\href{https://github.com/xcodegirl}{xcodegirl}
+    \\[2pt]
+    \textit{Hanna, Alberta, Canada}~\textbullet~\textit{Remote}
+\end{center}
+
+% ===== Summary =====
+\section*{Summary}
+
+Canadian Software Developer and Technology Educator with a Master of Science in Computer Science (University of Calgary) and more than twenty years of experience building technical systems and teaching. Currently an active online instructor at Robertson College, where I develop curriculum and teach across twelve programming and data subjects on Brightspace/D2L. I use AI tools daily across content development, code generation, CLI workflows, and process automation, and I teach students how to use AI responsibly, as a tool rather than a solution. I have developed and actively deliver curriculum on AI ethics, responsible use, and academic integrity as it applies to AI-generated content.
+
+% ===== AI Expertise =====
+\section*{AI Expertise}
+
+\textbf{Daily practice:}
+\begin{itemize}
+    \item Generative AI for content development: drafting course materials, case studies, scaffolded exercises, and code examples, always with accuracy review and editorial refinement
+    \item Prompt engineering for structured output: system prompts, iterative refinement, chain-of-thought elicitation, output format and style control
+    \item AI-assisted coding: \tech{GitHub Copilot}, \tech{Claude}, \tech{ChatGPT}: for scaffolding, debugging, refactoring, and code review
+    \item CLI and workflow automation: using AI to interface with \tech{Azure}, \tech{GitHub}, and shell tooling
+    \item Multi-model practice: Claude, ChatGPT, GitHub Copilot, DeepSeek, Recraft AI, with different tools for different tasks
+\end{itemize}
+
+\textbf{What I teach about AI:}
+\begin{itemize}
+    \item Responsible AI use as professional practice: practitioners are ultimately accountable for everything they produce, with or without AI assistance
+    \item \textbf{Three-level AI assessment framework} (adapted from Perkins et al., 2024): from no-AI to AI-assisted task completion with mandatory human evaluation, applied directly to programming assignments
+    \item Citation of AI-generated code: inline comment standards, README disclosure, terms of service compliance, with real code examples across seven scenarios
+    \item Copyright, bias, hallucination detection, and institutional policy: applied to software contexts, not just essay writing
+    \item AI tools as a first draft requiring editorial judgment, not a finished product
+\end{itemize}
+
+\textbf{AI and assessment design} \textit{\small(from Robertson's academic integrity training and the Academic Integrity Inter-Institutional Meeting, AIIIM 2026)}\textbf{:}
+\begin{itemize}
+    \item ``Authentic'' learning and assessment: assignments grounded in real, local contexts, where generic AI output cannot succeed without genuine human judgment
+    \item Scaffolded assignments with checkpoints: milestone grading and visible work in progress rather than a single final deliverable
+    \item Developing professional judgment of AI output: students audit, correct, and debug flawed, biased, or hallucinated AI drafts
+    \item Peer review and peer grading of AI-assisted work against concrete rubrics
+\end{itemize}
+
+% ===== Teaching Experience =====
+\section*{Teaching \& Course Development}
+
+\experience{Technology Instructor}{Jan 2025 -- Present}{Robertson College \normalfont\small\textit{-- Online, Brightspace / D2L (Full Stack Development \& Data Analytics programs)}}{}
+\begin{itemize}
+    \item Design, develop, and maintain learning materials for \textbf{20 course offerings across 12 subjects}: weekly instructional content, sample code repositories, reference sheets, recorded walkthroughs, and open-source GitHub archives
+    \item Teach students to use AI responsibly in software development; deliver academic integrity curriculum on AI citation, policy, and ethics; developed a dedicated slide deck actively used each term
+    \item Completed Robertson's academic integrity training; participated in the Academic Integrity Inter-Institutional Meeting (AIIIM 2026)
+    \item Conduct 3+ synchronous live coding sessions per week; use real-time debugging as deliberate instructional modelling of professional problem-solving
+    \item Apply Universal Design for Learning throughout: captions on recordings, structured documents, hardware-agnostic assignments
+    \item Student satisfaction: \textbf{4.5\,/\,5.0} teaching career-changing adult learners; feedback highlights real-world context, approachability, and responsiveness
+    \item[] \tech{Brightspace/D2L \textbullet\ Angular \textbullet\ React \textbullet\ ASP.NET Core \textbullet\ C\# \textbullet\ Java \textbullet\ Git \textbullet\ Azure \textbullet\ SQL \textbullet\ Python}
+\end{itemize}
+
+\experience{Instructor, Intermediate C++ Programming}{2005 -- 2008}{University of Calgary, Department of Continuing Education \normalfont\small\textit{-- Adult learners}}{}
+\begin{itemize}
+    \item Designed and delivered complete curriculum for adult learners: outcomes, lectures, sample code, and assessments from the ground up
+\end{itemize}
+
+\experience{Research / Teaching Assistant}{2001 -- 2004}{VLab / AI Research Hub, University of Calgary}{}
+\begin{itemize}
+    \item TA and lab instructor: \textit{Introduction to Programming}, \textit{Computing for Non-Majors}, and \textit{Operating Systems}
+    \item Computing for Non-Majors required translating technical concepts for a non-technical audience, directly transferable to AI for Business Leaders contexts
+\end{itemize}
+
+% ===== Industry Experience =====
+\section*{Industry Experience}
+
+\experience{Senior Software Developer}{2022 -- 2025}{bitHeads Inc. \normalfont\small\textit{-- brainCloud BaaS SDK}}{}
+\begin{itemize}
+    \item Authored extensive developer-facing documentation, onboarding guides, and sample projects; hired in part for educational background
+    \item Provided one-on-one client instruction across seven UI frameworks and twelve platforms
+\end{itemize}
+
+\experience{Co-founder / Lead Developer}{2005 -- 2022}{Silicon Hanna Inc. \normalfont\small\textit{(self-employed; founded as SuRJE Software Solutions Inc.)}}{}
+\begin{itemize}
+    \item 17-year software development and consulting practice spanning mobile, web, AR, and games
+    \item Early AI/ML research roots: M.Sc. in agent-based systems, swarm intelligence, and evolutionary computation, the academic precursors to today's machine learning landscape
+    \item Published 11 mobile titles (iOS and Android); explored novel SDKs and produced learning materials throughout
+\end{itemize}
+
+\experience{Tools Programmer}{2008 -- 2011}{Fekete Associates Inc. (S\&P Global)}{}
+\begin{itemize}
+    \item Designed and delivered a voluntary \textbf{internal graphics training course} for colleagues from beginners to senior developers; built multi-level materials with a hands-on capstone
+\end{itemize}
+
+% ===== Education =====
+\section*{Education}
+\begin{itemize}
+    \item \tech{M.Sc. Computer Science} -- University of Calgary \hfill 2004 \\
+    \textit{Thesis: Agent-based Development of Natural Transportation Networks} \\
+    \textit{Graduate coursework: Human-Computer Interaction, Artificial Intelligence, Computer Graphics}
+    \item \tech{B.Sc. Computer Science} -- University of Calgary \hfill 2001
+\end{itemize}
+
+% ===== Honours =====
+\section*{Honours \& Awards}
+\begin{itemize}[nosep,leftmargin=*]
+    \item Departmental Nomination: Governor General's Gold Medal, Faculty of Graduate Studies \hfill 2005
+    \item Postgraduate Scholarship NSERC D3, Natural Sciences and Engineering Research Council of Canada \hfill 2005
+    \item Graduate Student Scholarship, Alberta Learning \hfill 2004
+    \item Best Student Paper Award (Co-author), Australian Conference on Artificial Life (ACAL) \hfill 2003
+    \item CPSC Departmental Research Award, University of Calgary \hfill 2003
+\end{itemize}
+
+% ===== Publications =====
+\section*{Selected Publications \normalfont\small\textit{(published under maiden name Penner)}}
+\begin{itemize}[nosep,leftmargin=*]
+    \item \textbf{Penner, J.}, Hoar, R., Jacob, C. ``Bacterial Chemotaxis in Silico,'' \textit{Australian Conference on Artificial Life (ACAL)}, 2003 \hfill \textit{Best Student Paper}
+    \item Hoar, R., \textbf{Penner, J.}, Jacob, C. ``Transcription and Evolution of a Virtual Bacteria Culture,'' \textit{IEEE Congress on Evolutionary Computation (CEC)}, 2003
+    \item Hoar, R., \textbf{Penner, J.} ``The Application of Artificial Intelligence to Transportation System Design,'' \textit{XRDS: Crossroads, ACM}, 2003
+    \item \textbf{Penner, J.}, Hoar, R., Jacob, C. ``Swarm-Based Traffic Simulation with Evolutionary Traffic Light Adaptation,'' \textit{IASTED ASM}, 2002
+    \item Hoar, R., \textbf{Penner, J.}, Jacob, C. ``Evolutionary Swarm Traffic: If Ant Roads Had Traffic Lights,'' \textit{IEEE CEC}, 2002
+\end{itemize}
+
+% ===== Skills =====
+\section*{Technical Skills}
+\textbf{AI Tools:} ChatGPT, Claude, GitHub Copilot, DeepSeek, Recraft AI, used responsibly in curriculum, content, and coding workflows \\
+\textbf{LMS:} Brightspace / D2L (daily), GitHub (open-source course repos) \\
+\textbf{Languages:} C++, C\#, JavaScript, TypeScript, Java, Python, PHP, SQL \\
+\textbf{Frameworks:} Angular, React, ASP.NET Core, Node.js, .NET \\
+\textbf{Content \& Authoring:} Markdown, \LaTeX, HTML/CSS, open-source tooling \\
+\textbf{Human Languages:} English (native), French (intermediate), Spanish (rudimentary)
+
+% ===== Work Samples =====
+\section*{Work Samples}
+\faIcon{github}~\href{https://github.com/xcodegirl/career/blob/main/xcodegirl-work-samples.md}{github.com/xcodegirl/career (xcodegirl-work-samples.md)} \\
+Academic integrity / responsible AI use slide deck available on request.
+
+\end{document}
