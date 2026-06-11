@@ -42,7 +42,7 @@ Canadian Software Developer and Technology Educator with a Master of Science in 
 ### Technology Instructor · Robertson College *(contract)*
 **Jan 2025 – Present · Online (Brightspace / D2L)**
 
-- Design, develop, and maintain learning materials for **20 course offerings across 12 subjects** in the Full Stack Development and Data Analytics diploma programs
+- Develop and maintain all learning materials for **12 subjects** in the Full Stack Development and Data Analytics diploma programs, with **20 course offerings** taught since January 2025
 - Teach students to use AI responsibly in software development; deliver academic integrity curriculum covering AI citation, policy, and ethics
 - Completed Robertson's academic integrity training and participated in the Academic Integrity Inter-Institutional Meeting (AIIIM 2026)
 - Conduct 3+ synchronous live sessions per week; use real-time debugging as deliberate instructional modelling

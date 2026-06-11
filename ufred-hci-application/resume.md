@@ -31,7 +31,7 @@ Canadian Software Developer and Technology Educator with a Master of Science in 
 ### Technology Instructor · Robertson College *(contract)*
 **Jan 2025 – Present · Online (Brightspace / D2L)**
 
-- Deliver 20 course offerings across 12 subjects for **Full Stack Development** and **Data Analytics** diploma programs: *C# Programming*, *.NET*, *ASP.NET*, *ASP.NET Core*, *Object-Oriented Programming*, *Front End Frameworks*, *Introduction to JavaScript*, *Web Development Basics*, *Data Collection*, *Testing and Quality Assurance*, *Version Control with Git and GitHub*, and *Introduction to IT*.
+- Teach **12 subjects** for **Full Stack Development** and **Data Analytics** diploma programs, with **20 course offerings** taught since January 2025: *C# Programming*, *.NET*, *ASP.NET*, *ASP.NET Core*, *Object-Oriented Programming*, *Front End Frameworks*, *Introduction to JavaScript*, *Web Development Basics*, *Data Collection*, *Testing and Quality Assurance*, *Version Control with Git and GitHub*, and *Introduction to IT*.
 - Conduct 3+ synchronous live coding sessions per week; model real-time debugging and problem-solving to demystify professional practice.
 - Design supplemental code examples, reference sheets, and video walkthroughs to support diverse learning styles; publish materials as open-source on GitHub.
 - Earned average student satisfaction rating of **4.5 / 5.0**; feedback consistently highlights approachability, real-world teaching style, and responsiveness.
