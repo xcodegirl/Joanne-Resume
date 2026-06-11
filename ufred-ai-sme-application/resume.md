@@ -83,6 +83,11 @@ Canadian Software Developer and Technology Educator with a Master of Science in 
 
 - Designed and delivered an internal OpenGL graphics training course for colleagues ranging from beginners to senior developers
 
+### Intermediate Software Engineer · BJ Pipeline Inspection Services Inc. *(Baker Hughes)*
+**2005 – 2008**
+
+- Implemented neural network algorithms for automated anomaly detection in pipeline inspection data: applied machine learning in industry well before the current AI wave
+
 ---
 
 ## Education
