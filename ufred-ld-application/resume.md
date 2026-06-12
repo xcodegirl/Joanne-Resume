@@ -32,7 +32,7 @@ Canadian Software Developer and Technology Educator with a Master of Science in 
 ### Technology Instructor · Robertson College *(contract)*
 **Jan 2025 – Present · Online (Brightspace / D2L)**
 
-- Develop and maintain all learning materials for **12 subjects** in Full Stack Development and Data Analytics diploma programs, with **20 course offerings** taught since January 2025: weekly instructional content, sample code, reference sheets, applied exercises, and recorded walkthroughs.
+- Maintain and deliver all course materials for **12 subjects** in Full Stack Development and Data Analytics diploma programs, with **20 course offerings** taught since January 2025; contribute to course revisions and create supplemental materials: sample code, reference sheets, applied exercises, and recorded walkthroughs.
 - Maintain open-source GitHub repository of course materials, sample code, and corrected live-session examples for asynchronous learner access.
 - Conduct 3+ synchronous live coding sessions per week; use real-time debugging as a deliberate instructional strategy to model professional problem-solving.
 - Apply UDL principles throughout: captions on recordings, clear document structure, multiple representations of technical concepts, hardware-agnostic assignments.

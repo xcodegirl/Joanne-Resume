@@ -8,7 +8,7 @@ Hanna, Alberta, Canada · Remote
 
 ## Summary
 
-Canadian Software Developer and Technology Educator with a Master of Science in Computer Science and more than twenty years of experience building technical systems and teaching. Currently an active online instructor at Robertson College, where I develop and deliver curriculum across twelve programming and data subjects on Brightspace/D2L. I use AI tools daily, for content development, code generation, CLI workflows, and process automation, and I teach students how to use AI responsibly, as a tool rather than a solution. I have developed and actively deliver curriculum on AI ethics, academic integrity, and responsible use.
+Canadian Software Developer and Technology Educator with a Master of Science in Computer Science and more than twenty years of experience building technical systems and teaching. Currently an active online instructor at Robertson College, where I teach and maintain curriculum across twelve programming and data subjects on Brightspace/D2L. I use AI tools daily, for content development, code generation, CLI workflows, and process automation, and I teach students how to use AI responsibly, as a tool rather than a solution. I have developed and actively deliver curriculum on AI ethics, academic integrity, and responsible use.
 
 ---
 
@@ -42,9 +42,11 @@ Canadian Software Developer and Technology Educator with a Master of Science in 
 ### Technology Instructor · Robertson College *(contract)*
 **Jan 2025 – Present · Online (Brightspace / D2L)**
 
-- Develop and maintain all learning materials for **12 subjects** in the Full Stack Development and Data Analytics diploma programs, with **20 course offerings** taught since January 2025
+- Maintain and deliver all course materials for **12 subjects** in the Full Stack Development and Data Analytics diploma programs, with **20 course offerings** taught since January 2025; contribute to course revisions and create supplemental materials
 - Teach students to use AI responsibly in software development; deliver academic integrity curriculum covering AI citation, policy, and ethics
 - Completed Robertson's academic integrity training and participated in the Academic Integrity Inter-Institutional Meeting (AIIIM 2026)
+- Served as **contracted Subject Matter Expert** for the Full Stack Web Developer program: wrote its sections of the cross-program Tech Programs FAQ for Robertson's internal Program Knowledge course, then built and presented slides on the program to about forty Robertson team members at an internal tech training session with live Q&A (March 2025)
+- Invited back for future sessions and ongoing FSD SME consultation following the engagement
 - Conduct 3+ synchronous live sessions per week; use real-time debugging as deliberate instructional modelling
 - Apply Universal Design for Learning (UDL) throughout: captions, clear document structure, hardware-agnostic assignments
 - Student satisfaction of **4.5 / 5.0** teaching career-changing adult learners

@@ -66,12 +66,13 @@ Candidates with experience in online teaching, curriculum development, executive
 | Their requirement | Joanne's evidence |
 |---|---|
 | Online teaching experience | Robertson College, Jan 2025–present; 20 course offerings on Brightspace |
-| Course design & curriculum development | Built all Robertson materials from scratch; U of C C++ curriculum |
+| Course design & curriculum development | U of C C++ curriculum built from scratch; AI academic integrity unit built and delivered; course revisions and supplemental materials at Robertson (NOT full course development there) |
 | Applied AI expertise (practitioner) | Daily AI user across content development, coding, CLI workflows |
 | Translate AI for non-technical learners | Computing for Non-Majors (U of C TA); Robertson students are career-changers not CS grads |
 | AI Ethics and responsible use | Academic integrity slide deck — built and actively teaches it |
 | Generative AI and Prompt Engineering | Active daily practice; teaches students how to use AI as a tool, not a solution |
 | Online course design for diverse learners | UDL practice; 4.5/5.0 student satisfaction |
+| Prior SME experience (the literal job title) | Contracted, paid SME for Robertson's FSD program: wrote FAQ sections adopted into the internal Program Knowledge course, presented to ~40 staff, invited back for ongoing consultation (see `courses/robertson-tech-programs-faq.md`) |
 
 ### Gaps to address
 | Gap | Response strategy |
