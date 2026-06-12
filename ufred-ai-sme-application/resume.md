@@ -62,7 +62,7 @@ Canadian Software Developer and Technology Educator with a Master of Science in 
 **2001 – 2004**
 
 - TA and lab instructor: Introduction to Programming, Computing for Non-Majors, Operating Systems
-- Computing for Non-Majors required translating technical concepts for a non-technical audience, directly relevant to AI for Business Leaders contexts
+- Computing for Non-Majors required translating technical concepts for a completely non-technical audience
 
 ---
 
@@ -127,4 +127,4 @@ Canadian Software Developer and Technology Educator with a Master of Science in 
 ## Work Samples
 
 - Work samples index: [github.com/xcodegirl/career (xcodegirl-work-samples.md)](https://github.com/xcodegirl/career/blob/main/xcodegirl-work-samples.md)
-- Academic integrity / AI ethics slide deck available on request
+- Sample lesson plans and slide decks available upon request
