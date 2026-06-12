@@ -13,7 +13,7 @@ I am interested in developing an AI course for UFred and feel that I would be a 
 
 I use AI tools daily in my work, for content development, coding, CLI workflows and process automation. I also teach students how to use AI responsibly, as a tool rather than a solution, with the practitioner accountable for everything they produce. I have built a slide deck on AI and academic integrity that I deliver every term, covering citation of AI-generated code, terms of service, institutional policy and a tiered framework for what AI assistance is appropriate on different types of assessments. This month I completed academic integrity training at Robertson and participated in the Academic Integrity Inter-Institutional Meeting (AIIIM 2026).
 
-Developing a course in this area is exactly the kind of work I want to be doing right now. The course areas I feel I could develop most effectively are AI Ethics and Governance, Generative AI and Prompt Engineering, and AI for Business Leaders. I have experience making technical concepts accessible to non-technical audiences and can ground all three in real professional practice rather than theory.
+Developing a course in this area is exactly the kind of work I want to be doing right now. The course areas I feel I could develop most effectively are AI Ethics and Governance, Generative AI and Prompt Engineering, and AI for Business Leaders. My Robertson students are career changers rather than computer science graduates, so explaining technical ideas to non-technical learners is what I do every day, and I can ground all three areas in real professional practice rather than theory.
 
 Please find my resume attached. I would be happy to discuss which area would be most useful to UFred.
 
